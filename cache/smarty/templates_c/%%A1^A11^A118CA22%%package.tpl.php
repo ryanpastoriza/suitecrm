@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.29, created on 2018-04-26 07:14:10
+<?php /* Smarty version 2.6.29, created on 2018-08-08 03:06:20
          compiled from modules/ModuleBuilder/tpls/MBPackage/package.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_getimage', 'modules/ModuleBuilder/tpls/MBPackage/package.tpl', 90, false),array('function', 'counter', 'modules/ModuleBuilder/tpls/MBPackage/package.tpl', 107, false),array('function', 'sugar_image', 'modules/ModuleBuilder/tpls/MBPackage/package.tpl', 133, false),array('function', 'sugar_getimagepath', 'modules/ModuleBuilder/tpls/MBPackage/package.tpl', 169, false),array('modifier', 'cat', 'modules/ModuleBuilder/tpls/MBPackage/package.tpl', 126, false),)), $this); ?>

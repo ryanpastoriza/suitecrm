@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.29, created on 2018-04-26 05:56:08
+<?php /* Smarty version 2.6.29, created on 2018-08-08 03:10:44
          compiled from include/MVC/View/tpls/displayLoginJS.tpl */ ?>
 <?php if ($this->_tpl_vars['MODULE_SUGAR_GRP1']): ?>
     <script type="text/javascript">var module_sugar_grp1 = '<?php echo $this->_tpl_vars['MODULE_SUGAR_GRP1']; ?>
@@ -27,4 +27,4 @@
 <?php if ($this->_tpl_vars['HEADERSYNC']): ?>
     <script type="text/javascript" src="<?php echo $this->_tpl_vars['HEADERSYNC']; ?>
 "></script>
-<?php endif; ?>
+<?php endif; ?>

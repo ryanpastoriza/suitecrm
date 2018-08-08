@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.29, created on 2018-04-26 05:56:57
+<?php /* Smarty version 2.6.29, created on 2018-08-08 03:05:45
          compiled from themes%5CSuiteP%5Cinclude/Dashlets/DashletHeader.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'lower', 'themes\\SuiteP\\include/Dashlets/DashletHeader.tpl', 8, false),array('modifier', 'replace', 'themes\\SuiteP\\include/Dashlets/DashletHeader.tpl', 8, false),)), $this); ?>

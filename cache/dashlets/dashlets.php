@@ -1,5 +1,5 @@
 <?php
-// created: 2018-04-26 05:56:53
+// created: 2018-08-08 03:58:02
 $dashletsFiles = array (
   'MyAccountsDashlet' => 
   array (
@@ -276,6 +276,104 @@ $dashletsFiles = array (
     'class' => 'jjwg_MarkersDashlet',
     'meta' => 'modules/jjwg_Markers/Dashlets/jjwg_MarkersDashlet/jjwg_MarkersDashlet.meta.php',
     'module' => 'jjwg_Markers',
+  ),
+  'jump_AccessoriesDashlet' => 
+  array (
+    'file' => 'modules/jump_Accessories/Dashlets/jump_AccessoriesDashlet/jump_AccessoriesDashlet.php',
+    'class' => 'jump_AccessoriesDashlet',
+    'meta' => 'modules/jump_Accessories/Dashlets/jump_AccessoriesDashlet/jump_AccessoriesDashlet.meta.php',
+    'module' => 'jump_Accessories',
+  ),
+  'jump_AccessoryDashlet' => 
+  array (
+    'file' => 'modules/jump_Accessory/Dashlets/jump_AccessoryDashlet/jump_AccessoryDashlet.php',
+    'class' => 'jump_AccessoryDashlet',
+    'meta' => 'modules/jump_Accessory/Dashlets/jump_AccessoryDashlet/jump_AccessoryDashlet.meta.php',
+    'module' => 'jump_Accessory',
+  ),
+  'jump_AutoFinancingDashlet' => 
+  array (
+    'file' => 'modules/jump_AutoFinancing/Dashlets/jump_AutoFinancingDashlet/jump_AutoFinancingDashlet.php',
+    'class' => 'jump_AutoFinancingDashlet',
+    'meta' => 'modules/jump_AutoFinancing/Dashlets/jump_AutoFinancingDashlet/jump_AutoFinancingDashlet.meta.php',
+    'module' => 'jump_AutoFinancing',
+  ),
+  'jump_BankDashlet' => 
+  array (
+    'file' => 'modules/jump_Bank/Dashlets/jump_BankDashlet/jump_BankDashlet.php',
+    'class' => 'jump_BankDashlet',
+    'meta' => 'modules/jump_Bank/Dashlets/jump_BankDashlet/jump_BankDashlet.meta.php',
+    'module' => 'jump_Bank',
+  ),
+  'jump_ChargeListDashlet' => 
+  array (
+    'file' => 'modules/jump_ChargeList/Dashlets/jump_ChargeListDashlet/jump_ChargeListDashlet.php',
+    'class' => 'jump_ChargeListDashlet',
+    'meta' => 'modules/jump_ChargeList/Dashlets/jump_ChargeListDashlet/jump_ChargeListDashlet.meta.php',
+    'module' => 'jump_ChargeList',
+  ),
+  'jump_ChargesDashlet' => 
+  array (
+    'file' => 'modules/jump_Charges/Dashlets/jump_ChargesDashlet/jump_ChargesDashlet.php',
+    'class' => 'jump_ChargesDashlet',
+    'meta' => 'modules/jump_Charges/Dashlets/jump_ChargesDashlet/jump_ChargesDashlet.meta.php',
+    'module' => 'jump_Charges',
+  ),
+  'jump_ColorDashlet' => 
+  array (
+    'file' => 'modules/jump_Color/Dashlets/jump_ColorDashlet/jump_ColorDashlet.php',
+    'class' => 'jump_ColorDashlet',
+    'meta' => 'modules/jump_Color/Dashlets/jump_ColorDashlet/jump_ColorDashlet.meta.php',
+    'module' => 'jump_Color',
+  ),
+  'jump_CompanyDashlet' => 
+  array (
+    'file' => 'modules/jump_Company/Dashlets/jump_CompanyDashlet/jump_CompanyDashlet.php',
+    'class' => 'jump_CompanyDashlet',
+    'meta' => 'modules/jump_Company/Dashlets/jump_CompanyDashlet/jump_CompanyDashlet.meta.php',
+    'module' => 'jump_Company',
+  ),
+  'jump_DiscountDashlet' => 
+  array (
+    'file' => 'modules/jump_Discount/Dashlets/jump_DiscountDashlet/jump_DiscountDashlet.php',
+    'class' => 'jump_DiscountDashlet',
+    'meta' => 'modules/jump_Discount/Dashlets/jump_DiscountDashlet/jump_DiscountDashlet.meta.php',
+    'module' => 'jump_Discount',
+  ),
+  'jump_FinancingTermDashlet' => 
+  array (
+    'file' => 'modules/jump_FinancingTerm/Dashlets/jump_FinancingTermDashlet/jump_FinancingTermDashlet.php',
+    'class' => 'jump_FinancingTermDashlet',
+    'meta' => 'modules/jump_FinancingTerm/Dashlets/jump_FinancingTermDashlet/jump_FinancingTermDashlet.meta.php',
+    'module' => 'jump_FinancingTerm',
+  ),
+  'jump_InsuranceChargesDashlet' => 
+  array (
+    'file' => 'modules/jump_InsuranceCharges/Dashlets/jump_InsuranceChargesDashlet/jump_InsuranceChargesDashlet.php',
+    'class' => 'jump_InsuranceChargesDashlet',
+    'meta' => 'modules/jump_InsuranceCharges/Dashlets/jump_InsuranceChargesDashlet/jump_InsuranceChargesDashlet.meta.php',
+    'module' => 'jump_InsuranceCharges',
+  ),
+  'jump_PromoDashlet' => 
+  array (
+    'file' => 'modules/jump_Promo/Dashlets/jump_PromoDashlet/jump_PromoDashlet.php',
+    'class' => 'jump_PromoDashlet',
+    'meta' => 'modules/jump_Promo/Dashlets/jump_PromoDashlet/jump_PromoDashlet.meta.php',
+    'module' => 'jump_Promo',
+  ),
+  'jump_QuoteDashlet' => 
+  array (
+    'file' => 'modules/jump_Quote/Dashlets/jump_QuoteDashlet/jump_QuoteDashlet.php',
+    'class' => 'jump_QuoteDashlet',
+    'meta' => 'modules/jump_Quote/Dashlets/jump_QuoteDashlet/jump_QuoteDashlet.meta.php',
+    'module' => 'jump_Quote',
+  ),
+  'jump_SchemeDashlet' => 
+  array (
+    'file' => 'modules/jump_Scheme/Dashlets/jump_SchemeDashlet/jump_SchemeDashlet.php',
+    'class' => 'jump_SchemeDashlet',
+    'meta' => 'modules/jump_Scheme/Dashlets/jump_SchemeDashlet/jump_SchemeDashlet.meta.php',
+    'module' => 'jump_Scheme',
   ),
   'MyLeadsDashlet' => 
   array (

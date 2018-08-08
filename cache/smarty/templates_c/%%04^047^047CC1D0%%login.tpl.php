@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.29, created on 2018-04-26 05:56:12
+<?php /* Smarty version 2.6.29, created on 2018-08-08 03:10:44
          compiled from themes/SuiteP/tpls/login.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_translate', 'themes/SuiteP/tpls/login.tpl', 42, false),)), $this); ?>
@@ -149,3 +149,4 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_trans
 <!-- End login container -->
 
 
+
