@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.29, created on 2018-08-08 08:04:20
+<?php /* Smarty version 2.6.29, created on 2018-08-08 07:52:31
          compiled from themes%5CSuiteP%5Cinclude/EditView/footer.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_include', 'themes\\SuiteP\\include/EditView/footer.tpl', 54, false),)), $this); ?>
