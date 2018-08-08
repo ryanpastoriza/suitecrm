@@ -4,3 +4,5 @@ Mon May 28 03:37:14 2018 [1624][1][FATAL] SugarBean::populateDefaultValues $fiel
 Mon May 28 03:38:21 2018 [1624][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
 Tue Jun  5 07:56:16 2018 [6948][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
 Wed Jun  6 14:05:39 2018 [6948][1][FATAL] Error: Module Accunts does not exist.
+Wed Aug  8 02:20:23 2018 [10916][-none-][FATAL] SECURITY: User authentication for admin failed
+Wed Aug  8 02:20:26 2018 [10916][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[admin]
