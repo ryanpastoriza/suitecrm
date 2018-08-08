@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.29, created on 2018-04-26 06:04:41
+<?php /* Smarty version 2.6.29, created on 2018-08-08 08:04:51
          compiled from themes%5CSuiteP%5Cinclude/DetailView/DetailView.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_include', 'themes\\SuiteP\\include/DetailView/DetailView.tpl', 42, false),array('function', 'counter', 'themes\\SuiteP\\include/DetailView/DetailView.tpl', 47, false),array('modifier', 'upper', 'themes\\SuiteP\\include/DetailView/DetailView.tpl', 52, false),)), $this); ?>
@@ -461,3 +461,4 @@ unset($_smarty_tpl_vars);
                 </script>
 
             {/literal}
+

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.29, created on 2018-04-26 06:04:40
+<?php /* Smarty version 2.6.29, created on 2018-08-08 08:04:51
          compiled from themes%5CSuiteP%5Cinclude/EditView/SugarVCR.tpl */ ?>
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
@@ -66,4 +66,4 @@
             &nbsp;&nbsp;
         </td>
     </tr>
-</table>
+</table>
