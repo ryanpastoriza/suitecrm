@@ -7892,6 +7892,103 @@
     'join_key_lhs' => 'surveyq72c7options_ida',
     'join_key_rhs' => 'surveyq10d4sponses_idb',
   ),
+  'm20_opportunity_m20_activity_1' => 
+  array (
+    'name' => 'm20_opportunity_m20_activity_1',
+    'true_relationship_type' => 'one-to-many',
+    'from_studio' => true,
+    'relationships' => 
+    array (
+      'm20_opportunity_m20_activity_1' => 
+      array (
+        'lhs_module' => 'm20_Opportunity',
+        'lhs_table' => 'm20_opportunity',
+        'lhs_key' => 'id',
+        'rhs_module' => 'm20_activity',
+        'rhs_table' => 'm20_activity',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'm20_opportunity_m20_activity_1_c',
+        'join_key_lhs' => 'm20_opportunity_m20_activity_1m20_opportunity_ida',
+        'join_key_rhs' => 'm20_opportunity_m20_activity_1m20_activity_idb',
+      ),
+    ),
+    'table' => 'm20_opportunity_m20_activity_1_c',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'm20_opportunity_m20_activity_1m20_opportunity_ida',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'm20_opportunity_m20_activity_1m20_activity_idb',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'm20_opportunity_m20_activity_1spk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'm20_opportunity_m20_activity_1_ida1',
+        'type' => 'index',
+        'fields' => 
+        array (
+          0 => 'm20_opportunity_m20_activity_1m20_opportunity_ida',
+        ),
+      ),
+      2 => 
+      array (
+        'name' => 'm20_opportunity_m20_activity_1_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'm20_opportunity_m20_activity_1m20_activity_idb',
+        ),
+      ),
+    ),
+    'lhs_module' => 'm20_Opportunity',
+    'lhs_table' => 'm20_opportunity',
+    'lhs_key' => 'id',
+    'rhs_module' => 'm20_activity',
+    'rhs_table' => 'm20_activity',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'm20_opportunity_m20_activity_1_c',
+    'join_key_lhs' => 'm20_opportunity_m20_activity_1m20_opportunity_ida',
+    'join_key_rhs' => 'm20_opportunity_m20_activity_1m20_activity_idb',
+  ),
   'user_direct_reports' => 
   array (
     'name' => 'user_direct_reports',
@@ -14049,6 +14146,212 @@
     'join_key_rhs' => 'record_id',
     'relationship_role_column' => 'module',
     'relationship_role_column_value' => 'SurveyQuestionOptions',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'char',
+        'len' => '36',
+        'required' => true,
+        'default' => '',
+      ),
+      1 => 
+      array (
+        'name' => 'securitygroup_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      2 => 
+      array (
+        'name' => 'record_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      3 => 
+      array (
+        'name' => 'module',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      4 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      5 => 
+      array (
+        'name' => 'modified_user_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      6 => 
+      array (
+        'name' => 'created_by',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      7 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'required' => true,
+        'default' => '0',
+      ),
+    ),
+  ),
+  'm20_activity_modified_user' => 
+  array (
+    'name' => 'm20_activity_modified_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'm20_activity',
+    'rhs_table' => 'm20_activity',
+    'rhs_key' => 'modified_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'm20_activity_created_by' => 
+  array (
+    'name' => 'm20_activity_created_by',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'm20_activity',
+    'rhs_table' => 'm20_activity',
+    'rhs_key' => 'created_by',
+    'relationship_type' => 'one-to-many',
+  ),
+  'm20_activity_assigned_user' => 
+  array (
+    'name' => 'm20_activity_assigned_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'm20_activity',
+    'rhs_table' => 'm20_activity',
+    'rhs_key' => 'assigned_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'securitygroups_m20_activity' => 
+  array (
+    'name' => 'securitygroups_m20_activity',
+    'lhs_module' => 'SecurityGroups',
+    'lhs_table' => 'securitygroups',
+    'lhs_key' => 'id',
+    'rhs_module' => 'm20_activity',
+    'rhs_table' => 'm20_activity',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'securitygroups_records',
+    'join_key_lhs' => 'securitygroup_id',
+    'join_key_rhs' => 'record_id',
+    'relationship_role_column' => 'module',
+    'relationship_role_column_value' => 'm20_activity',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'char',
+        'len' => '36',
+        'required' => true,
+        'default' => '',
+      ),
+      1 => 
+      array (
+        'name' => 'securitygroup_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      2 => 
+      array (
+        'name' => 'record_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      3 => 
+      array (
+        'name' => 'module',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      4 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      5 => 
+      array (
+        'name' => 'modified_user_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      6 => 
+      array (
+        'name' => 'created_by',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      7 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'required' => true,
+        'default' => '0',
+      ),
+    ),
+  ),
+  'm20_opportunity_modified_user' => 
+  array (
+    'name' => 'm20_opportunity_modified_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'm20_Opportunity',
+    'rhs_table' => 'm20_opportunity',
+    'rhs_key' => 'modified_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'm20_opportunity_created_by' => 
+  array (
+    'name' => 'm20_opportunity_created_by',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'm20_Opportunity',
+    'rhs_table' => 'm20_opportunity',
+    'rhs_key' => 'created_by',
+    'relationship_type' => 'one-to-many',
+  ),
+  'm20_opportunity_assigned_user' => 
+  array (
+    'name' => 'm20_opportunity_assigned_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'm20_Opportunity',
+    'rhs_table' => 'm20_opportunity',
+    'rhs_key' => 'assigned_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'securitygroups_m20_opportunity' => 
+  array (
+    'name' => 'securitygroups_m20_opportunity',
+    'lhs_module' => 'SecurityGroups',
+    'lhs_table' => 'securitygroups',
+    'lhs_key' => 'id',
+    'rhs_module' => 'm20_Opportunity',
+    'rhs_table' => 'm20_opportunity',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'securitygroups_records',
+    'join_key_lhs' => 'securitygroup_id',
+    'join_key_rhs' => 'record_id',
+    'relationship_role_column' => 'module',
+    'relationship_role_column_value' => 'm20_Opportunity',
     'fields' => 
     array (
       0 => 

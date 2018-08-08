@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.29, created on 2018-04-26 06:01:30
+<?php /* Smarty version 2.6.29, created on 2018-08-08 08:04:29
          compiled from themes%5CSuiteP%5Cinclude/SearchForm/tpls/footer.tpl */ ?>
 {*
 /**
@@ -67,3 +67,4 @@ function toggleInlineSearch()
 {if $searchFormInPopup}
     {include file='include/SearchForm/tpls/footerPopup.tpl'}
 {/if}
+
