@@ -3,6 +3,7 @@
 
  
  //WARNING: The contents of this file are auto-generated
+<<<<<<< HEAD
 $beanList['jump_city'] = 'jump_city';
 $beanFiles['jump_city'] = 'modules/jump_city/jump_city.php';
 $moduleList[] = 'jump_city';
@@ -12,10 +13,16 @@ $moduleList[] = 'jump_country';
 $beanList['jump_province'] = 'jump_province';
 $beanFiles['jump_province'] = 'modules/jump_province/jump_province.php';
 $moduleList[] = 'jump_province';
+=======
+$beanList['jump_prospect_inquiry'] = 'jump_prospect_inquiry';
+$beanFiles['jump_prospect_inquiry'] = 'modules/jump_prospect_inquiry/jump_prospect_inquiry.php';
+$moduleList[] = 'jump_prospect_inquiry';
+>>>>>>> Prospect
 
 
  
  //WARNING: The contents of this file are auto-generated
+<<<<<<< HEAD
 $beanList['jump_branch'] = 'jump_branch';
 $beanFiles['jump_branch'] = 'modules/jump_branch/jump_branch.php';
 $moduleList[] = 'jump_branch';
@@ -46,6 +53,8 @@ $moduleList[] = 'm20_activity';
 $beanList['m20_Opportunity'] = 'm20_Opportunity';
 $beanFiles['m20_Opportunity'] = 'modules/m20_Opportunity/m20_Opportunity.php';
 $moduleList[] = 'm20_Opportunity';
+=======
+>>>>>>> Prospect
 
 
 ?>

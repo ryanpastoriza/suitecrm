@@ -1,0 +1,268 @@
+<?php
+$module_name = 'jump_prospect_inquiry';
+$viewdefs [$module_name] = 
+array (
+  'DetailView' => 
+  array (
+    'templateMeta' => 
+    array (
+      'form' => 
+      array (
+        'buttons' => 
+        array (
+          0 => 'EDIT',
+          1 => 'DUPLICATE',
+          2 => 'DELETE',
+          3 => 'FIND_DUPLICATES',
+        ),
+      ),
+      'maxColumns' => '2',
+      'widths' => 
+      array (
+        0 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+        1 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+      ),
+      'useTabs' => false,
+      'tabDefs' => 
+      array (
+        'LBL_EDITVIEW_PANEL4' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL5' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL6' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+      ),
+      'syncDetailEditViews' => true,
+    ),
+    'panels' => 
+    array (
+      'lbl_editview_panel4' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'prospect_type_c',
+            'studio' => 'visible',
+            'label' => 'LBL_PROSPECT_TYPE',
+          ),
+          1 => 'date_entered',
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'fname_c',
+            'label' => 'LBL_FNAME',
+          ),
+          1 => 
+          array (
+            'name' => 'company_name_c',
+            'label' => 'LBL_COMPANY_NAME',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'mname_c',
+            'label' => 'LBL_MNAME',
+          ),
+          1 => 
+          array (
+            'name' => 'website_c',
+            'label' => 'LBL_WEBSITE',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'lname_c',
+            'label' => 'LBL_LNAME',
+          ),
+          1 => 
+          array (
+            'name' => 'gender_c',
+            'studio' => 'visible',
+            'label' => 'LBL_GENDER',
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'birthdate_c',
+            'label' => 'LBL_BIRTHDATE',
+          ),
+          1 => 
+          array (
+            'name' => 'marital_status_c',
+            'studio' => 'visible',
+            'label' => 'LBL_MARITAL_STATUS',
+          ),
+        ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'age_c',
+            'label' => 'LBL_AGE',
+          ),
+        ),
+        6 => 
+        array (
+        ),
+        7 => 
+        array (
+          0 => 
+          array (
+            'name' => 'mobile_number_c',
+            'label' => 'LBL_MOBILE_NUMBER',
+          ),
+          1 => 
+          array (
+            'name' => 'business_phone_c',
+            'label' => 'LBL_BUSINESS_PHONE',
+          ),
+        ),
+        8 => 
+        array (
+          0 => 
+          array (
+            'name' => 'alternate_contact_c',
+            'label' => 'LBL_ALTERNATE_CONTACT',
+          ),
+          1 => 
+          array (
+            'name' => 'fax_c',
+            'label' => 'LBL_FAX',
+          ),
+        ),
+        9 => 
+        array (
+          0 => 
+          array (
+            'name' => 'email_address_c',
+            'label' => 'LBL_EMAIL_ADDRESS',
+          ),
+          1 => 
+          array (
+            'name' => 'tin_c',
+            'label' => 'LBL_TIN',
+          ),
+        ),
+        10 => 
+        array (
+        ),
+        11 => 
+        array (
+          0 => 
+          array (
+            'name' => 'postal_code_c',
+            'label' => 'LBL_POSTAL_CODE',
+          ),
+          1 => 
+          array (
+            'name' => 'basic_address_c',
+            'label' => 'LBL_BASIC_ADDRESS',
+          ),
+        ),
+        12 => 
+        array (
+          1 => 
+          array (
+            'name' => 'province_c',
+            'studio' => 'visible',
+            'label' => 'LBL_PROVINCE',
+          ),
+        ),
+      ),
+      'lbl_editview_panel5' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'inquiry_number_c',
+            'label' => 'LBL_INQUIRY_NUMBER',
+          ),
+          1 => 
+          array (
+            'name' => 'payment_mode_c',
+            'studio' => 'visible',
+            'label' => 'LBL_PAYMENT_MODE',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'inquiry_date_c',
+            'label' => 'LBL_INQUIRY_DATE',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'rating_c',
+            'label' => 'LBL_RATING',
+          ),
+        ),
+      ),
+      'lbl_editview_panel6' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'record_owner_c',
+            'label' => 'LBL_RECORD_OWNER',
+          ),
+          1 => 
+          array (
+            'name' => 'created_on_c',
+            'label' => 'LBL_CREATED_ON',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'owning_branch_c',
+            'label' => 'LBL_OWNING_BRANCH',
+          ),
+          1 => 'date_modified',
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'owning_dealer_c',
+            'label' => 'LBL_OWNING_DEALER',
+          ),
+        ),
+      ),
+    ),
+  ),
+);
+;
+?>
