@@ -17,3 +17,6 @@ Wed Aug  8 10:18:06 2018 [1932][a9fc924f-07cb-627b-ca47-5b6a561ca69c][FATAL] ERR
 =======
 08/08/18 07:52:31 [14208][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
 >>>>>>> master
+08/08/18 08:47:19 [14208][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/08/18 08:47:55 [14208][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/08/18 08:49:29 [14208][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
