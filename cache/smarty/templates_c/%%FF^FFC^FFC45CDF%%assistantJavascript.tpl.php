@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <?php /* Smarty version 2.6.29, created on 2018-08-08 10:18:15
+=======
+<?php /* Smarty version 2.6.29, created on 2018-08-08 06:47:12
+>>>>>>> master
          compiled from modules/ModuleBuilder/tpls/assistantJavascript.tpl */ ?>
 <script>
 <?php echo '
