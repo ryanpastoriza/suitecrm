@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.29, created on 2018-04-26 06:02:26
+<?php /* Smarty version 2.6.29, created on 2018-08-08 10:25:28
          compiled from themes%5CSuiteP%5Cinclude/EditView/header.tpl */ ?>
 {*
 /**
@@ -114,4 +114,4 @@ unset($_smarty_tpl_vars);
 <?php endif; ?>
 </td>
 </tr>
-</table>
+</table>

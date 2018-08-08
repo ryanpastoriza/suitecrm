@@ -1,8 +1,15 @@
-Thu Apr 26 06:02:28 2018 [5484][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-Mon May 28 03:37:04 2018 [1624][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-Mon May 28 03:37:14 2018 [1624][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-Mon May 28 03:38:21 2018 [1624][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-Tue Jun  5 07:56:16 2018 [6948][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-Wed Jun  6 14:05:39 2018 [6948][1][FATAL] Error: Module Accunts does not exist.
-Wed Aug  8 02:20:23 2018 [10916][-none-][FATAL] SECURITY: User authentication for admin failed
-Wed Aug  8 02:20:26 2018 [10916][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[admin]
+Wed Aug  8 08:25:32 2018 [5432][b81361c7-93bb-c7c9-d3a8-5b6a5662dfea][FATAL] Exception handling in C:\xampp\htdocs\suitecrm\include\MVC\Controller\SugarController.php:402
+Wed Aug  8 08:25:32 2018 [5432][b81361c7-93bb-c7c9-d3a8-5b6a5662dfea][FATAL] Exception in Controller: There is no action by that name: master_status_update
+Wed Aug  8 08:25:32 2018 [5432][b81361c7-93bb-c7c9-d3a8-5b6a5662dfea][FATAL] backtrace:
+#0 C:\xampp\htdocs\suitecrm\include\MVC\Controller\SugarController.php(553): sugar_die('There is no act...')
+#1 C:\xampp\htdocs\suitecrm\include\MVC\Controller\SugarController.php(1088): SugarController->no_action()
+#2 C:\xampp\htdocs\suitecrm\include\MVC\Controller\SugarController.php(465): SugarController->handleActionMaps()
+#3 C:\xampp\htdocs\suitecrm\include\MVC\Controller\SugarController.php(373): SugarController->process()
+#4 C:\xampp\htdocs\suitecrm\include\MVC\SugarApplication.php(109): SugarController->execute()
+#5 C:\xampp\htdocs\suitecrm\index.php(52): SugarApplication->execute()
+#6 {main}
+Wed Aug  8 10:22:12 2018 [5432][-none-][FATAL] SECURITY: User authentication for dale failed
+Wed Aug  8 10:22:12 2018 [5432][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[dale]
+Wed Aug  8 10:22:15 2018 [5432][-none-][FATAL] SECURITY: User authentication for dale failed
+Wed Aug  8 10:22:15 2018 [5432][-none-][FATAL] FAILED LOGIN:attempts[2], ip[::1], username[dale]
+Wed Aug  8 10:25:30 2018 [5432][b81361c7-93bb-c7c9-d3a8-5b6a5662dfea][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
