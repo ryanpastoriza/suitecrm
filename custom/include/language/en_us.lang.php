@@ -6,7 +6,7 @@ $GLOBALS['app_list_strings']['purchased_timeframe_list']=array (
   'next_year' => 'Next Year',
   'this_year' => 'This Year',
   'unknown' => 'Unknown',
-
+);
 $GLOBALS['app_list_strings']['basic_status_list']=array (
   'active' => 'Active',
   'inactive' => 'Inactive',
