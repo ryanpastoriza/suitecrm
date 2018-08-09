@@ -42,6 +42,8 @@
 $vardefs = array (
   'fields' => 
   array (
+<<<<<<< HEAD
+=======
     'activitytype' => 
     array (
       'required' => false,
@@ -66,6 +68,7 @@ $vardefs = array (
       'studio' => 'visible',
       'dependency' => false,
     ),
+>>>>>>> master
   ),
   'relationships' => 
   array (

@@ -1,5 +1,5 @@
 <?php
-// created: 2018-04-25 08:37:27
+// created: 2018-08-09 00:48:25
 $sugar_config = array (
   'addAjaxBannedModules' => 
   array (
@@ -90,7 +90,7 @@ $sugar_config = array (
   'datef' => 'm/d/Y',
   'dbconfig' => 
   array (
-    'db_host_name' => '192.168.1.2',
+    'db_host_name' => 'localhost',
     'db_host_instance' => 'SQLEXPRESS',
     'db_user_name' => 'developers',
     'db_password' => 'suitecrm',
@@ -236,7 +236,7 @@ $sugar_config = array (
   'demoData' => 'no',
   'disable_convert_lead' => false,
   'disable_export' => false,
-  'disable_persistent_connections' => 'false',
+  'disable_persistent_connections' => false,
   'display_email_template_variable_chooser' => false,
   'display_inbound_email_buttons' => false,
   'dump_slow_queries' => false,
@@ -302,8 +302,8 @@ $sugar_config = array (
     'max_retries' => 5,
     'timeout' => 86400,
   ),
-  'js_custom_version' => '',
-  'js_lang_version' => 1,
+  'js_custom_version' => 1,
+  'js_lang_version' => 2,
   'languages' => 
   array (
     'en_us' => 'English (US)',

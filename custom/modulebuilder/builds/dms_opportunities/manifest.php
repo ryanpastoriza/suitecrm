@@ -61,6 +61,15 @@ $manifest = array (
   'readme' => '',
   'key' => 'm20',
   'author' => 'Mailavs',
+<<<<<<< HEAD
+  'description' => 'Packages for dms opportunities module',
+  'icon' => '',
+  'is_uninstallable' => true,
+  'name' => 'dms_opportunities',
+  'published_date' => '2018-07-30 06:48:34',
+  'type' => 'module',
+  'version' => 1532933314,
+=======
   'description' => 'opportunity packages',
   'icon' => '',
   'is_uninstallable' => true,
@@ -68,6 +77,7 @@ $manifest = array (
   'published_date' => '2018-08-08 05:48:22',
   'type' => 'module',
   'version' => 1533707303,
+>>>>>>> master
   'remove_tables' => 'prompt',
 );
 
