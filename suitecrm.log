@@ -15,6 +15,11 @@ Wed Aug  8 08:04:20 2018 [8904][a9fc924f-07cb-627b-ca47-5b6a561ca69c][FATAL] Sug
 Wed Aug  8 08:07:26 2018 [8904][a9fc924f-07cb-627b-ca47-5b6a561ca69c][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
 <<<<<<< HEAD
 Wed Aug  8 10:18:06 2018 [1932][a9fc924f-07cb-627b-ca47-5b6a561ca69c][FATAL] ERROR: rmdir_recursive(): argument cache/themes/SuiteP/modules is not a file or a dir.
+<<<<<<< HEAD
+Wed Aug  8 12:20:51 2018 [1932][-none-][FATAL] Could not connect to DB server 192.168.1.2 as developers. port : MySQL server has gone away
+Wed Aug  8 12:21:50 2018 [1932][-none-][FATAL] Could not connect to DB server 192.168.1.2 as developers. port : A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+=======
 =======
 08/08/18 07:52:31 [14208][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
 >>>>>>> master
@@ -38,3 +43,20 @@ Wed Aug  8 10:22:15 2018 [5432][-none-][FATAL] SECURITY: User authentication for
 Wed Aug  8 10:22:15 2018 [5432][-none-][FATAL] FAILED LOGIN:attempts[2], ip[::1], username[dale]
 Wed Aug  8 10:25:30 2018 [5432][b81361c7-93bb-c7c9-d3a8-5b6a5662dfea][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
 >>>>>>> Prospect
+08/09/18 00:46:43 [14208][1][FATAL] Executing repair query:  Query Failed: CREATE TABLE jump_accessories (id char(36)  NOT NULL ,name varchar(255)  NULL ,date_entered datetime  NULL ,date_modified datetime  NULL ,modified_user_id char(36)  NULL ,created_by char(36)  NULL ,description text  NULL ,deleted bool  DEFAULT '0' NULL ,assigned_user_id char(36)  NULL  , PRIMARY KEY (id)) CHARACTER SET utf8 COLLATE utf8_general_ci: MySQL error 1050: Table 'jump_accessories' already exists
+08/09/18 00:46:43 [14208][1][FATAL] Exception handling in C:\wamp\www\suitecrm\include\MVC\Controller\SugarController.php:402
+08/09/18 00:46:43 [14208][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+08/09/18 00:46:43 [14208][1][FATAL] backtrace:
+#0 C:\wamp\www\suitecrm\include\database\DBManager.php(353): sugar_die('Database failur...')
+#1 C:\wamp\www\suitecrm\include\database\DBManager.php(328): DBManager->registerError('Executing repai...', 'MySQL error 105...', true)
+#2 C:\wamp\www\suitecrm\include\database\MysqliManager.php(167): DBManager->checkError('Executing repai...', true)
+#3 C:\wamp\www\suitecrm\modules\Administration\repairDatabase.php(93): MysqliManager->query('CREATE TABLE ju...', true, 'Executing repai...')
+#4 C:\wamp\www\suitecrm\include\MVC\View\SugarView.php(840): include_once('C:\\wamp\\www\\sui...')
+#5 C:\wamp\www\suitecrm\include\MVC\View\views\view.classic.php(74): SugarView->includeClassicFile('modules/Adminis...')
+#6 C:\wamp\www\suitecrm\include\MVC\View\SugarView.php(207): ViewClassic->display()
+#7 C:\wamp\www\suitecrm\include\MVC\Controller\SugarController.php(432): SugarView->process()
+#8 C:\wamp\www\suitecrm\include\MVC\Controller\SugarController.php(375): SugarController->processView()
+#9 C:\wamp\www\suitecrm\include\MVC\SugarApplication.php(109): SugarController->execute()
+#10 C:\wamp\www\suitecrm\index.php(52): SugarApplication->execute()
+#11 {main}
+>>>>>>> master
