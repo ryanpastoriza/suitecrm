@@ -13,3 +13,6 @@ Wed Aug  8 08:00:14 2018 [8904][a9fc924f-07cb-627b-ca47-5b6a561ca69c][FATAL] Sug
 Wed Aug  8 08:04:20 2018 [8904][a9fc924f-07cb-627b-ca47-5b6a561ca69c][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
 Wed Aug  8 08:07:26 2018 [8904][a9fc924f-07cb-627b-ca47-5b6a561ca69c][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
 Wed Aug  8 10:18:06 2018 [1932][a9fc924f-07cb-627b-ca47-5b6a561ca69c][FATAL] ERROR: rmdir_recursive(): argument cache/themes/SuiteP/modules is not a file or a dir.
+Wed Aug  8 12:20:51 2018 [1932][-none-][FATAL] Could not connect to DB server 192.168.1.2 as developers. port : MySQL server has gone away
+Wed Aug  8 12:21:50 2018 [1932][-none-][FATAL] Could not connect to DB server 192.168.1.2 as developers. port : A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
