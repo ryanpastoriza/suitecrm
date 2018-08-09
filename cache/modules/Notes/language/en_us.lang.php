@@ -1,9 +1,6 @@
 <?php
-<<<<<<< HEAD
 // created: 2018-08-08 08:45:09
-=======
 // created: 2018-08-08 10:24:41
->>>>>>> Prospect
 $mod_strings = array (
   'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
   'LBL_ASSIGNED_TO_NAME' => 'Assigned to',

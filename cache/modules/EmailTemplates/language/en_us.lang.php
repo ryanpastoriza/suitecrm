@@ -1,9 +1,6 @@
 <?php
-<<<<<<< HEAD
 // created: 2018-08-08 08:45:09
-=======
 // created: 2018-08-08 10:24:41
->>>>>>> Prospect
 $mod_strings = array (
   'LBL_SECURITYGROUPS' => 'Security Groups',
   'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups',
