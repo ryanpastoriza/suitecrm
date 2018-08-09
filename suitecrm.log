@@ -1,62 +1,21 @@
-<<<<<<< HEAD
-Thu Apr 26 06:02:28 2018 [5484][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-Mon May 28 03:37:04 2018 [1624][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-Mon May 28 03:37:14 2018 [1624][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-Mon May 28 03:38:21 2018 [1624][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-Tue Jun  5 07:56:16 2018 [6948][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-Wed Jun  6 14:05:39 2018 [6948][1][FATAL] Error: Module Accunts does not exist.
-Wed Aug  8 02:20:23 2018 [10916][-none-][FATAL] SECURITY: User authentication for admin failed
-Wed Aug  8 02:20:26 2018 [10916][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[admin]
-Wed Aug  8 07:51:34 2018 [8904][a9fc924f-07cb-627b-ca47-5b6a561ca69c][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-Wed Aug  8 07:55:12 2018 [8904][a9fc924f-07cb-627b-ca47-5b6a561ca69c][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-Wed Aug  8 07:56:34 2018 [8904][a9fc924f-07cb-627b-ca47-5b6a561ca69c][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-Wed Aug  8 08:00:14 2018 [8904][a9fc924f-07cb-627b-ca47-5b6a561ca69c][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-Wed Aug  8 08:04:20 2018 [8904][a9fc924f-07cb-627b-ca47-5b6a561ca69c][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-Wed Aug  8 08:07:26 2018 [8904][a9fc924f-07cb-627b-ca47-5b6a561ca69c][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-<<<<<<< HEAD
-Wed Aug  8 10:18:06 2018 [1932][a9fc924f-07cb-627b-ca47-5b6a561ca69c][FATAL] ERROR: rmdir_recursive(): argument cache/themes/SuiteP/modules is not a file or a dir.
-<<<<<<< HEAD
-Wed Aug  8 12:20:51 2018 [1932][-none-][FATAL] Could not connect to DB server 192.168.1.2 as developers. port : MySQL server has gone away
-Wed Aug  8 12:21:50 2018 [1932][-none-][FATAL] Could not connect to DB server 192.168.1.2 as developers. port : A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
-
-=======
-=======
-08/08/18 07:52:31 [14208][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
->>>>>>> master
-08/08/18 08:47:19 [14208][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-08/08/18 08:47:55 [14208][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-08/08/18 08:49:29 [14208][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-=======
-Wed Aug  8 08:25:32 2018 [5432][b81361c7-93bb-c7c9-d3a8-5b6a5662dfea][FATAL] Exception handling in C:\xampp\htdocs\suitecrm\include\MVC\Controller\SugarController.php:402
-Wed Aug  8 08:25:32 2018 [5432][b81361c7-93bb-c7c9-d3a8-5b6a5662dfea][FATAL] Exception in Controller: There is no action by that name: master_status_update
-Wed Aug  8 08:25:32 2018 [5432][b81361c7-93bb-c7c9-d3a8-5b6a5662dfea][FATAL] backtrace:
-#0 C:\xampp\htdocs\suitecrm\include\MVC\Controller\SugarController.php(553): sugar_die('There is no act...')
-#1 C:\xampp\htdocs\suitecrm\include\MVC\Controller\SugarController.php(1088): SugarController->no_action()
-#2 C:\xampp\htdocs\suitecrm\include\MVC\Controller\SugarController.php(465): SugarController->handleActionMaps()
-#3 C:\xampp\htdocs\suitecrm\include\MVC\Controller\SugarController.php(373): SugarController->process()
-#4 C:\xampp\htdocs\suitecrm\include\MVC\SugarApplication.php(109): SugarController->execute()
-#5 C:\xampp\htdocs\suitecrm\index.php(52): SugarApplication->execute()
-#6 {main}
-Wed Aug  8 10:22:12 2018 [5432][-none-][FATAL] SECURITY: User authentication for dale failed
-Wed Aug  8 10:22:12 2018 [5432][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[dale]
-Wed Aug  8 10:22:15 2018 [5432][-none-][FATAL] SECURITY: User authentication for dale failed
-Wed Aug  8 10:22:15 2018 [5432][-none-][FATAL] FAILED LOGIN:attempts[2], ip[::1], username[dale]
-Wed Aug  8 10:25:30 2018 [5432][b81361c7-93bb-c7c9-d3a8-5b6a5662dfea][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
->>>>>>> Prospect
-08/09/18 00:46:43 [14208][1][FATAL] Executing repair query:  Query Failed: CREATE TABLE jump_accessories (id char(36)  NOT NULL ,name varchar(255)  NULL ,date_entered datetime  NULL ,date_modified datetime  NULL ,modified_user_id char(36)  NULL ,created_by char(36)  NULL ,description text  NULL ,deleted bool  DEFAULT '0' NULL ,assigned_user_id char(36)  NULL  , PRIMARY KEY (id)) CHARACTER SET utf8 COLLATE utf8_general_ci: MySQL error 1050: Table 'jump_accessories' already exists
-08/09/18 00:46:43 [14208][1][FATAL] Exception handling in C:\wamp\www\suitecrm\include\MVC\Controller\SugarController.php:402
-08/09/18 00:46:43 [14208][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
-08/09/18 00:46:43 [14208][1][FATAL] backtrace:
-#0 C:\wamp\www\suitecrm\include\database\DBManager.php(353): sugar_die('Database failur...')
-#1 C:\wamp\www\suitecrm\include\database\DBManager.php(328): DBManager->registerError('Executing repai...', 'MySQL error 105...', true)
-#2 C:\wamp\www\suitecrm\include\database\MysqliManager.php(167): DBManager->checkError('Executing repai...', true)
-#3 C:\wamp\www\suitecrm\modules\Administration\repairDatabase.php(93): MysqliManager->query('CREATE TABLE ju...', true, 'Executing repai...')
-#4 C:\wamp\www\suitecrm\include\MVC\View\SugarView.php(840): include_once('C:\\wamp\\www\\sui...')
-#5 C:\wamp\www\suitecrm\include\MVC\View\views\view.classic.php(74): SugarView->includeClassicFile('modules/Adminis...')
-#6 C:\wamp\www\suitecrm\include\MVC\View\SugarView.php(207): ViewClassic->display()
-#7 C:\wamp\www\suitecrm\include\MVC\Controller\SugarController.php(432): SugarView->process()
-#8 C:\wamp\www\suitecrm\include\MVC\Controller\SugarController.php(375): SugarController->processView()
-#9 C:\wamp\www\suitecrm\include\MVC\SugarApplication.php(109): SugarController->execute()
-#10 C:\wamp\www\suitecrm\index.php(52): SugarApplication->execute()
-#11 {main}
->>>>>>> master
+Thu Aug  9 10:24:24 2018 [5432][b81361c7-93bb-c7c9-d3a8-5b6a5662dfea][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Thu Aug  9 10:27:56 2018 [5432][b81361c7-93bb-c7c9-d3a8-5b6a5662dfea][FATAL] Exception handling in C:\xampp\htdocs\suitecrm\include\MVC\Controller\SugarController.php:402
+Thu Aug  9 10:27:56 2018 [5432][b81361c7-93bb-c7c9-d3a8-5b6a5662dfea][FATAL] Exception in Controller: Error: Field Already Exists
+Thu Aug  9 10:27:56 2018 [5432][b81361c7-93bb-c7c9-d3a8-5b6a5662dfea][FATAL] backtrace:
+#0 C:\xampp\htdocs\suitecrm\modules\ModuleBuilder\controller.php(420): sugar_die('Error: Field Al...')
+#1 C:\xampp\htdocs\suitecrm\include\MVC\Controller\SugarController.php(523): ModuleBuilderController->action_SaveField()
+#2 C:\xampp\htdocs\suitecrm\include\MVC\Controller\SugarController.php(491): SugarController->do_action()
+#3 C:\xampp\htdocs\suitecrm\include\MVC\Controller\SugarController.php(465): SugarController->handle_action()
+#4 C:\xampp\htdocs\suitecrm\modules\ModuleBuilder\controller.php(108): SugarController->process()
+#5 C:\xampp\htdocs\suitecrm\include\MVC\Controller\SugarController.php(373): ModuleBuilderController->process()
+#6 C:\xampp\htdocs\suitecrm\include\MVC\SugarApplication.php(109): SugarController->execute()
+#7 C:\xampp\htdocs\suitecrm\index.php(52): SugarApplication->execute()
+#8 {main}
+Thu Aug  9 10:28:18 2018 [5432][b81361c7-93bb-c7c9-d3a8-5b6a5662dfea][FATAL] ERROR: rmdir_recursive(): argument cache/themes/SuiteP/modules is not a file or a dir.
+Thu Aug  9 10:28:26 2018 [5432][b81361c7-93bb-c7c9-d3a8-5b6a5662dfea][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Thu Aug  9 10:30:33 2018 [5432][b81361c7-93bb-c7c9-d3a8-5b6a5662dfea][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Thu Aug  9 10:32:07 2018 [5432][b81361c7-93bb-c7c9-d3a8-5b6a5662dfea][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Thu Aug  9 10:36:16 2018 [5432][b81361c7-93bb-c7c9-d3a8-5b6a5662dfea][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Thu Aug  9 10:40:59 2018 [5432][b81361c7-93bb-c7c9-d3a8-5b6a5662dfea][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Thu Aug  9 10:41:53 2018 [5432][b81361c7-93bb-c7c9-d3a8-5b6a5662dfea][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Thu Aug  9 10:42:35 2018 [5432][b81361c7-93bb-c7c9-d3a8-5b6a5662dfea][FATAL] SugarBean::populateDefaultValues $field_defs should be an array

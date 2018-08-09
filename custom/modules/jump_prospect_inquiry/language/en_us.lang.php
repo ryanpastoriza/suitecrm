@@ -1,5 +1,5 @@
 <?php
-// created: 2018-08-08 08:07:25
+// created: 2018-08-09 10:25:08
 $mod_strings = array (
   'LBL_PROSPECT_TYPE' => 'Prospect Type',
   'LBL_MNAME' => 'Middle Name',
@@ -54,4 +54,5 @@ $mod_strings = array (
   'LBL_SALES_EXECUTIVE' => 'Sales Executive',
   'LBL_STATUS' => 'Status',
   'LBL_DISQ_REASON' => 'Disqualification Reason',
+  'LBL_CITY_JUMP_CITY_ID' => 'City (related  ID)',
 );

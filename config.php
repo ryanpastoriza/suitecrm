@@ -90,7 +90,7 @@ $sugar_config = array (
   'datef' => 'm/d/Y',
   'dbconfig' => 
   array (
-    'db_host_name' => 'localhost',
+    'db_host_name' => '192.168.1.2',
     'db_host_instance' => 'SQLEXPRESS',
     'db_user_name' => 'developers',
     'db_password' => 'suitecrm',
