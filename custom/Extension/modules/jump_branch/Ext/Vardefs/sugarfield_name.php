@@ -1,0 +1,9 @@
+<?php
+ // created: 2018-08-08 07:31:34
+$dictionary['jump_branch']['fields']['name']['inline_edit']=true;
+$dictionary['jump_branch']['fields']['name']['duplicate_merge']='disabled';
+$dictionary['jump_branch']['fields']['name']['duplicate_merge_dom_value']='0';
+$dictionary['jump_branch']['fields']['name']['merge_filter']='disabled';
+$dictionary['jump_branch']['fields']['name']['unified_search']=false;
+
+ ?>

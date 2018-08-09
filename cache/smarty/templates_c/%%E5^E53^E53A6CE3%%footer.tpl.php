@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.29, created on 2018-05-28 03:37:16
+<?php /* Smarty version 2.6.29, created on 2018-08-08 08:48:44
          compiled from include/Popups/tpls/footer.tpl */ ?>
 {*
 /*********************************************************************************
@@ -42,4 +42,4 @@
 *}
 <?php if ($this->_tpl_vars['prerow']): ?>
 	</form>
-<?php endif; ?>
+<?php endif; ?>

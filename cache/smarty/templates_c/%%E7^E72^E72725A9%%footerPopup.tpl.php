@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.29, created on 2018-04-26 06:01:31
+<?php /* Smarty version 2.6.29, created on 2018-08-08 10:25:40
          compiled from include/SearchForm/tpls/footerPopup.tpl */ ?>
 </div>
 </div><!-- /.modal-content -->
@@ -115,3 +115,4 @@
 
 </script>
 '; ?>
+

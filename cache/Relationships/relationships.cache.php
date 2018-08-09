@@ -7892,6 +7892,103 @@
     'join_key_lhs' => 'surveyq72c7options_ida',
     'join_key_rhs' => 'surveyq10d4sponses_idb',
   ),
+  'm20_opportunity_m20_activity_1' => 
+  array (
+    'name' => 'm20_opportunity_m20_activity_1',
+    'true_relationship_type' => 'one-to-many',
+    'from_studio' => true,
+    'relationships' => 
+    array (
+      'm20_opportunity_m20_activity_1' => 
+      array (
+        'lhs_module' => 'm20_Opportunity',
+        'lhs_table' => 'm20_opportunity',
+        'lhs_key' => 'id',
+        'rhs_module' => 'm20_activity',
+        'rhs_table' => 'm20_activity',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'm20_opportunity_m20_activity_1_c',
+        'join_key_lhs' => 'm20_opportunity_m20_activity_1m20_opportunity_ida',
+        'join_key_rhs' => 'm20_opportunity_m20_activity_1m20_activity_idb',
+      ),
+    ),
+    'table' => 'm20_opportunity_m20_activity_1_c',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'm20_opportunity_m20_activity_1m20_opportunity_ida',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'm20_opportunity_m20_activity_1m20_activity_idb',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'm20_opportunity_m20_activity_1spk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'm20_opportunity_m20_activity_1_ida1',
+        'type' => 'index',
+        'fields' => 
+        array (
+          0 => 'm20_opportunity_m20_activity_1m20_opportunity_ida',
+        ),
+      ),
+      2 => 
+      array (
+        'name' => 'm20_opportunity_m20_activity_1_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'm20_opportunity_m20_activity_1m20_activity_idb',
+        ),
+      ),
+    ),
+    'lhs_module' => 'm20_Opportunity',
+    'lhs_table' => 'm20_opportunity',
+    'lhs_key' => 'id',
+    'rhs_module' => 'm20_activity',
+    'rhs_table' => 'm20_activity',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'm20_opportunity_m20_activity_1_c',
+    'join_key_lhs' => 'm20_opportunity_m20_activity_1m20_opportunity_ida',
+    'join_key_rhs' => 'm20_opportunity_m20_activity_1m20_activity_idb',
+  ),
   'user_direct_reports' => 
   array (
     'name' => 'user_direct_reports',
@@ -14660,6 +14757,88 @@
     'lhs_key' => 'id',
     'rhs_module' => 'jump_ChargeList',
     'rhs_table' => 'jump_chargelist',
+  'jump_city_modified_user' => 
+  array (
+    'name' => 'jump_city_modified_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'jump_city',
+    'rhs_table' => 'jump_city',
+    'rhs_key' => 'modified_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'jump_city_created_by' => 
+  array (
+    'name' => 'jump_city_created_by',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'jump_city',
+    'rhs_table' => 'jump_city',
+    'rhs_key' => 'created_by',
+    'relationship_type' => 'one-to-many',
+  ),
+  'jump_city_assigned_user' => 
+  array (
+    'name' => 'jump_city_assigned_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'jump_city',
+    'rhs_table' => 'jump_city',
+    'rhs_key' => 'assigned_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'securitygroups_jump_city' => 
+  array (
+    'name' => 'securitygroups_jump_city',
+    'lhs_module' => 'SecurityGroups',
+    'lhs_table' => 'securitygroups',
+    'lhs_key' => 'id',
+    'rhs_module' => 'jump_city',
+    'rhs_table' => 'jump_city',
+  'jump_prospect_inquiry_modified_user' => 
+  array (
+    'name' => 'jump_prospect_inquiry_modified_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'jump_prospect_inquiry',
+    'rhs_table' => 'jump_prospect_inquiry',
+    'rhs_key' => 'modified_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'jump_prospect_inquiry_created_by' => 
+  array (
+    'name' => 'jump_prospect_inquiry_created_by',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'jump_prospect_inquiry',
+    'rhs_table' => 'jump_prospect_inquiry',
+    'rhs_key' => 'created_by',
+    'relationship_type' => 'one-to-many',
+  ),
+  'jump_prospect_inquiry_assigned_user' => 
+  array (
+    'name' => 'jump_prospect_inquiry_assigned_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'jump_prospect_inquiry',
+    'rhs_table' => 'jump_prospect_inquiry',
+    'rhs_key' => 'assigned_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'securitygroups_jump_prospect_inquiry' => 
+  array (
+    'name' => 'securitygroups_jump_prospect_inquiry',
+    'lhs_module' => 'SecurityGroups',
+    'lhs_table' => 'securitygroups',
+    'lhs_key' => 'id',
+    'rhs_module' => 'jump_prospect_inquiry',
+    'rhs_table' => 'jump_prospect_inquiry',
     'rhs_key' => 'id',
     'relationship_type' => 'many-to-many',
     'join_table' => 'securitygroups_records',
@@ -14667,6 +14846,7 @@
     'join_key_rhs' => 'record_id',
     'relationship_role_column' => 'module',
     'relationship_role_column_value' => 'jump_ChargeList',
+    'relationship_role_column_value' => 'jump_city',
     'fields' => 
     array (
       0 => 
@@ -14763,6 +14943,47 @@
     'lhs_key' => 'id',
     'rhs_module' => 'jump_Charges',
     'rhs_table' => 'jump_charges',
+  'jump_country_modified_user' => 
+  array (
+    'name' => 'jump_country_modified_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'jump_country',
+    'rhs_table' => 'jump_country',
+    'rhs_key' => 'modified_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'jump_country_created_by' => 
+  array (
+    'name' => 'jump_country_created_by',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'jump_country',
+    'rhs_table' => 'jump_country',
+    'rhs_key' => 'created_by',
+    'relationship_type' => 'one-to-many',
+  ),
+  'jump_country_assigned_user' => 
+  array (
+    'name' => 'jump_country_assigned_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'jump_country',
+    'rhs_table' => 'jump_country',
+    'rhs_key' => 'assigned_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'securitygroups_jump_country' => 
+  array (
+    'name' => 'securitygroups_jump_country',
+    'lhs_module' => 'SecurityGroups',
+    'lhs_table' => 'securitygroups',
+    'lhs_key' => 'id',
+    'rhs_module' => 'jump_country',
+    'rhs_table' => 'jump_country',
     'rhs_key' => 'id',
     'relationship_type' => 'many-to-many',
     'join_table' => 'securitygroups_records',
@@ -14770,6 +14991,7 @@
     'join_key_rhs' => 'record_id',
     'relationship_role_column' => 'module',
     'relationship_role_column_value' => 'jump_Charges',
+    'relationship_role_column_value' => 'jump_country',
     'fields' => 
     array (
       0 => 
@@ -14866,6 +15088,47 @@
     'lhs_key' => 'id',
     'rhs_module' => 'jump_Color',
     'rhs_table' => 'jump_color',
+  'jump_province_modified_user' => 
+  array (
+    'name' => 'jump_province_modified_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'jump_province',
+    'rhs_table' => 'jump_province',
+    'rhs_key' => 'modified_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'jump_province_created_by' => 
+  array (
+    'name' => 'jump_province_created_by',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'jump_province',
+    'rhs_table' => 'jump_province',
+    'rhs_key' => 'created_by',
+    'relationship_type' => 'one-to-many',
+  ),
+  'jump_province_assigned_user' => 
+  array (
+    'name' => 'jump_province_assigned_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'jump_province',
+    'rhs_table' => 'jump_province',
+    'rhs_key' => 'assigned_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'securitygroups_jump_province' => 
+  array (
+    'name' => 'securitygroups_jump_province',
+    'lhs_module' => 'SecurityGroups',
+    'lhs_table' => 'securitygroups',
+    'lhs_key' => 'id',
+    'rhs_module' => 'jump_province',
+    'rhs_table' => 'jump_province',
     'rhs_key' => 'id',
     'relationship_type' => 'many-to-many',
     'join_table' => 'securitygroups_records',
@@ -14873,6 +15136,7 @@
     'join_key_rhs' => 'record_id',
     'relationship_role_column' => 'module',
     'relationship_role_column_value' => 'jump_Color',
+    'relationship_role_column_value' => 'jump_province',
     'fields' => 
     array (
       0 => 
@@ -14969,6 +15233,47 @@
     'lhs_key' => 'id',
     'rhs_module' => 'jump_Company',
     'rhs_table' => 'jump_company',
+  'jump_branch_modified_user' => 
+  array (
+    'name' => 'jump_branch_modified_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'jump_branch',
+    'rhs_table' => 'jump_branch',
+    'rhs_key' => 'modified_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'jump_branch_created_by' => 
+  array (
+    'name' => 'jump_branch_created_by',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'jump_branch',
+    'rhs_table' => 'jump_branch',
+    'rhs_key' => 'created_by',
+    'relationship_type' => 'one-to-many',
+  ),
+  'jump_branch_assigned_user' => 
+  array (
+    'name' => 'jump_branch_assigned_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'jump_branch',
+    'rhs_table' => 'jump_branch',
+    'rhs_key' => 'assigned_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'securitygroups_jump_branch' => 
+  array (
+    'name' => 'securitygroups_jump_branch',
+    'lhs_module' => 'SecurityGroups',
+    'lhs_table' => 'securitygroups',
+    'lhs_key' => 'id',
+    'rhs_module' => 'jump_branch',
+    'rhs_table' => 'jump_branch',
     'rhs_key' => 'id',
     'relationship_type' => 'many-to-many',
     'join_table' => 'securitygroups_records',
@@ -14976,6 +15281,7 @@
     'join_key_rhs' => 'record_id',
     'relationship_role_column' => 'module',
     'relationship_role_column_value' => 'jump_Company',
+    'relationship_role_column_value' => 'jump_branch',
     'fields' => 
     array (
       0 => 
@@ -15072,6 +15378,47 @@
     'lhs_key' => 'id',
     'rhs_module' => 'jump_Discount',
     'rhs_table' => 'jump_discount',
+  'jump_dealer_modified_user' => 
+  array (
+    'name' => 'jump_dealer_modified_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'jump_dealer',
+    'rhs_table' => 'jump_dealer',
+    'rhs_key' => 'modified_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'jump_dealer_created_by' => 
+  array (
+    'name' => 'jump_dealer_created_by',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'jump_dealer',
+    'rhs_table' => 'jump_dealer',
+    'rhs_key' => 'created_by',
+    'relationship_type' => 'one-to-many',
+  ),
+  'jump_dealer_assigned_user' => 
+  array (
+    'name' => 'jump_dealer_assigned_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'jump_dealer',
+    'rhs_table' => 'jump_dealer',
+    'rhs_key' => 'assigned_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'securitygroups_jump_dealer' => 
+  array (
+    'name' => 'securitygroups_jump_dealer',
+    'lhs_module' => 'SecurityGroups',
+    'lhs_table' => 'securitygroups',
+    'lhs_key' => 'id',
+    'rhs_module' => 'jump_dealer',
+    'rhs_table' => 'jump_dealer',
     'rhs_key' => 'id',
     'relationship_type' => 'many-to-many',
     'join_table' => 'securitygroups_records',
@@ -15079,6 +15426,7 @@
     'join_key_rhs' => 'record_id',
     'relationship_role_column' => 'module',
     'relationship_role_column_value' => 'jump_Discount',
+    'relationship_role_column_value' => 'jump_dealer',
     'fields' => 
     array (
       0 => 
@@ -15175,6 +15523,47 @@
     'lhs_key' => 'id',
     'rhs_module' => 'jump_InsuranceCharges',
     'rhs_table' => 'jump_insurancecharges',
+  'j41_base_model_modified_user' => 
+  array (
+    'name' => 'j41_base_model_modified_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'j41_base_model',
+    'rhs_table' => 'j41_base_model',
+    'rhs_key' => 'modified_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'j41_base_model_created_by' => 
+  array (
+    'name' => 'j41_base_model_created_by',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'j41_base_model',
+    'rhs_table' => 'j41_base_model',
+    'rhs_key' => 'created_by',
+    'relationship_type' => 'one-to-many',
+  ),
+  'j41_base_model_assigned_user' => 
+  array (
+    'name' => 'j41_base_model_assigned_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'j41_base_model',
+    'rhs_table' => 'j41_base_model',
+    'rhs_key' => 'assigned_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'securitygroups_j41_base_model' => 
+  array (
+    'name' => 'securitygroups_j41_base_model',
+    'lhs_module' => 'SecurityGroups',
+    'lhs_table' => 'securitygroups',
+    'lhs_key' => 'id',
+    'rhs_module' => 'j41_base_model',
+    'rhs_table' => 'j41_base_model',
     'rhs_key' => 'id',
     'relationship_type' => 'many-to-many',
     'join_table' => 'securitygroups_records',
@@ -15182,6 +15571,7 @@
     'join_key_rhs' => 'record_id',
     'relationship_role_column' => 'module',
     'relationship_role_column_value' => 'jump_InsuranceCharges',
+    'relationship_role_column_value' => 'j41_base_model',
     'fields' => 
     array (
       0 => 
@@ -15278,6 +15668,47 @@
     'lhs_key' => 'id',
     'rhs_module' => 'jump_Promo',
     'rhs_table' => 'jump_promo',
+  'j41_lead_source_modified_user' => 
+  array (
+    'name' => 'j41_lead_source_modified_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'j41_lead_source',
+    'rhs_table' => 'j41_lead_source',
+    'rhs_key' => 'modified_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'j41_lead_source_created_by' => 
+  array (
+    'name' => 'j41_lead_source_created_by',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'j41_lead_source',
+    'rhs_table' => 'j41_lead_source',
+    'rhs_key' => 'created_by',
+    'relationship_type' => 'one-to-many',
+  ),
+  'j41_lead_source_assigned_user' => 
+  array (
+    'name' => 'j41_lead_source_assigned_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'j41_lead_source',
+    'rhs_table' => 'j41_lead_source',
+    'rhs_key' => 'assigned_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'securitygroups_j41_lead_source' => 
+  array (
+    'name' => 'securitygroups_j41_lead_source',
+    'lhs_module' => 'SecurityGroups',
+    'lhs_table' => 'securitygroups',
+    'lhs_key' => 'id',
+    'rhs_module' => 'j41_lead_source',
+    'rhs_table' => 'j41_lead_source',
     'rhs_key' => 'id',
     'relationship_type' => 'many-to-many',
     'join_table' => 'securitygroups_records',
@@ -15285,6 +15716,7 @@
     'join_key_rhs' => 'record_id',
     'relationship_role_column' => 'module',
     'relationship_role_column_value' => 'jump_Promo',
+    'relationship_role_column_value' => 'j41_lead_source',
     'fields' => 
     array (
       0 => 
@@ -15381,6 +15813,47 @@
     'lhs_key' => 'id',
     'rhs_module' => 'jump_Quote',
     'rhs_table' => 'jump_quote',
+  'm20_activity_modified_user' => 
+  array (
+    'name' => 'm20_activity_modified_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'm20_activity',
+    'rhs_table' => 'm20_activity',
+    'rhs_key' => 'modified_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'm20_activity_created_by' => 
+  array (
+    'name' => 'm20_activity_created_by',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'm20_activity',
+    'rhs_table' => 'm20_activity',
+    'rhs_key' => 'created_by',
+    'relationship_type' => 'one-to-many',
+  ),
+  'm20_activity_assigned_user' => 
+  array (
+    'name' => 'm20_activity_assigned_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'm20_activity',
+    'rhs_table' => 'm20_activity',
+    'rhs_key' => 'assigned_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'securitygroups_m20_activity' => 
+  array (
+    'name' => 'securitygroups_m20_activity',
+    'lhs_module' => 'SecurityGroups',
+    'lhs_table' => 'securitygroups',
+    'lhs_key' => 'id',
+    'rhs_module' => 'm20_activity',
+    'rhs_table' => 'm20_activity',
     'rhs_key' => 'id',
     'relationship_type' => 'many-to-many',
     'join_table' => 'securitygroups_records',
@@ -15388,6 +15861,7 @@
     'join_key_rhs' => 'record_id',
     'relationship_role_column' => 'module',
     'relationship_role_column_value' => 'jump_Quote',
+    'relationship_role_column_value' => 'm20_activity',
     'fields' => 
     array (
       0 => 
@@ -15484,6 +15958,47 @@
     'lhs_key' => 'id',
     'rhs_module' => 'jump_Scheme',
     'rhs_table' => 'jump_scheme',
+  'm20_opportunity_modified_user' => 
+  array (
+    'name' => 'm20_opportunity_modified_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'm20_Opportunity',
+    'rhs_table' => 'm20_opportunity',
+    'rhs_key' => 'modified_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'm20_opportunity_created_by' => 
+  array (
+    'name' => 'm20_opportunity_created_by',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'm20_Opportunity',
+    'rhs_table' => 'm20_opportunity',
+    'rhs_key' => 'created_by',
+    'relationship_type' => 'one-to-many',
+  ),
+  'm20_opportunity_assigned_user' => 
+  array (
+    'name' => 'm20_opportunity_assigned_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'm20_Opportunity',
+    'rhs_table' => 'm20_opportunity',
+    'rhs_key' => 'assigned_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'securitygroups_m20_opportunity' => 
+  array (
+    'name' => 'securitygroups_m20_opportunity',
+    'lhs_module' => 'SecurityGroups',
+    'lhs_table' => 'securitygroups',
+    'lhs_key' => 'id',
+    'rhs_module' => 'm20_Opportunity',
+    'rhs_table' => 'm20_opportunity',
     'rhs_key' => 'id',
     'relationship_type' => 'many-to-many',
     'join_table' => 'securitygroups_records',
@@ -15491,6 +16006,8 @@
     'join_key_rhs' => 'record_id',
     'relationship_role_column' => 'module',
     'relationship_role_column_value' => 'jump_Scheme',
+    'relationship_role_column_value' => 'm20_Opportunity',
+    'relationship_role_column_value' => 'jump_prospect_inquiry',
     'fields' => 
     array (
       0 => 

@@ -42,6 +42,33 @@
 $vardefs = array (
   'fields' => 
   array (
+<<<<<<< HEAD
+=======
+    'activitytype' => 
+    array (
+      'required' => false,
+      'name' => 'activitytype',
+      'vname' => 'LBL_ACTIVITYTYPE',
+      'type' => 'enum',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => '',
+      'help' => '',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => '',
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => 100,
+      'size' => '20',
+      'options' => 'activitytype_list',
+      'studio' => 'visible',
+      'dependency' => false,
+    ),
+>>>>>>> master
   ),
   'relationships' => 
   array (

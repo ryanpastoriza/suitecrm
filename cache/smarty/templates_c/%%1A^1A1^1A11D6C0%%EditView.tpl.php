@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.29, created on 2018-05-28 03:38:20
+<?php /* Smarty version 2.6.29, created on 2018-08-08 10:25:30
          compiled from include/SugarFields/Fields/Datetime/EditView.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugarvar', 'include/SugarFields/Fields/Datetime/EditView.tpl', 41, false),)), $this); ?>
@@ -84,4 +84,4 @@ weekNumbers:false
 {rdelim}
 );
 </script>
-<?php endif; ?>
+<?php endif; ?>

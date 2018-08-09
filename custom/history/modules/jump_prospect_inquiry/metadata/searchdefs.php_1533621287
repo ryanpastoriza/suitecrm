@@ -1,0 +1,44 @@
+<?php
+$module_name = 'jump_prospect_inquiry';
+$searchdefs [$module_name] = 
+array (
+  'layout' => 
+  array (
+    'basic_search' => 
+    array (
+      0 => 'name',
+      1 => 
+      array (
+        'name' => 'current_user_only',
+        'label' => 'LBL_CURRENT_USER_FILTER',
+        'type' => 'bool',
+      ),
+    ),
+    'advanced_search' => 
+    array (
+      'base_model_c' => 
+      array (
+        'type' => 'relate',
+        'default' => true,
+        'studio' => 'visible',
+        'label' => 'LBL_BASE_MODEL',
+        'id' => 'J41_BASE_MODEL_ID_C',
+        'link' => true,
+        'width' => '10%',
+        'name' => 'base_model_c',
+      ),
+    ),
+  ),
+  'templateMeta' => 
+  array (
+    'maxColumns' => '3',
+    'maxColumnsBasic' => '4',
+    'widths' => 
+    array (
+      'label' => '10',
+      'field' => '30',
+    ),
+  ),
+);
+;
+?>

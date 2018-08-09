@@ -1,5 +1,9 @@
 <?php
-// created: 2018-04-26 06:04:48
+<<<<<<< HEAD
+// created: 2018-08-08 08:45:12
+=======
+// created: 2018-08-08 10:24:43
+>>>>>>> Prospect
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',

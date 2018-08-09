@@ -61,6 +61,7 @@ $manifest = array (
   'readme' => '',
   'key' => 'j41',
   'author' => 'Juan Dela Cruz',
+<<<<<<< HEAD
   'description' => 'Packages for dependencies',
   'icon' => '',
   'is_uninstallable' => true,
@@ -68,6 +69,15 @@ $manifest = array (
   'published_date' => '2018-07-30 01:43:10',
   'type' => 'module',
   'version' => 1532914991,
+=======
+  'description' => '',
+  'icon' => '',
+  'is_uninstallable' => true,
+  'name' => 'dependencies',
+  'published_date' => '2018-08-08 08:11:59',
+  'type' => 'module',
+  'version' => 1533715919,
+>>>>>>> master
   'remove_tables' => 'prompt',
 );
 
@@ -85,6 +95,7 @@ $installdefs = array (
     ),
     1 => 
     array (
+<<<<<<< HEAD
       'module' => 'j41_financing_term',
       'class' => 'j41_financing_term',
       'path' => 'modules/j41_financing_term/j41_financing_term.php',
@@ -92,6 +103,8 @@ $installdefs = array (
     ),
     2 => 
     array (
+=======
+>>>>>>> master
       'module' => 'j41_lead_source',
       'class' => 'j41_lead_source',
       'path' => 'modules/j41_lead_source/j41_lead_source.php',
@@ -114,11 +127,14 @@ $installdefs = array (
     ),
     1 => 
     array (
+<<<<<<< HEAD
       'from' => '<basepath>/SugarModules/modules/j41_financing_term',
       'to' => 'modules/j41_financing_term',
     ),
     2 => 
     array (
+=======
+>>>>>>> master
       'from' => '<basepath>/SugarModules/modules/j41_lead_source',
       'to' => 'modules/j41_lead_source',
     ),
