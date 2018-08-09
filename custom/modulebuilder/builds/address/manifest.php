@@ -65,9 +65,15 @@ $manifest = array (
   'icon' => '',
   'is_uninstallable' => true,
   'name' => 'address',
+<<<<<<< HEAD
+  'published_date' => '2018-07-27 22:00:04',
+  'type' => 'module',
+  'version' => 1532728804,
+=======
   'published_date' => '2018-08-08 07:16:20',
   'type' => 'module',
   'version' => 1533712580,
+>>>>>>> master
   'remove_tables' => 'prompt',
 );
 

@@ -42,9 +42,12 @@
 
 $app_list_strings['moduleList']['m20_activity'] = 'Activity';
 $app_list_strings['moduleList']['m20_Opportunity'] = 'Opportunity';
+<<<<<<< HEAD
+=======
 $app_list_strings['activitytype_list']['phone_call'] = 'Phone Call';
 $app_list_strings['activitytype_list']['email'] = 'Email';
 $app_list_strings['activitytype_list']['Letter'] = 'Letter';
 $app_list_strings['activitytype_list']['appointment'] = 'Appointment';
 $app_list_strings['activitytype_list']['test_drive'] = 'Test Drive';
 $app_list_strings['activitytype_list']['others'] = 'Others';
+>>>>>>> master

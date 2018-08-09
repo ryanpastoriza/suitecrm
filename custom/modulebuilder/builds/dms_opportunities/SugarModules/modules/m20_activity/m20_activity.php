@@ -63,7 +63,10 @@ class m20_activity extends Basic
     public $assigned_user_name;
     public $assigned_user_link;
     public $SecurityGroups;
+<<<<<<< HEAD
+=======
     public $activitytype;
+>>>>>>> master
 	
     public function bean_implements($interface)
     {

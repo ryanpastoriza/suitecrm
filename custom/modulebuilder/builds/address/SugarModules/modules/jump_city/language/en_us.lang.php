@@ -1,4 +1,7 @@
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD:custom/modulebuilder/builds/address/SugarModules/modules/jump_city/language/en_us.lang.php
+>>>>>>> master
 <?php
 /**
  *
@@ -77,6 +80,9 @@ $mod_strings = array (
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
   'LBL_JUMP_CITY_SUBPANEL_TITLE' => 'City',
   'LBL_NEW_FORM_TITLE' => 'New City',
+<<<<<<< HEAD
+);
+=======
 );
 =======
 <?php /* Smarty version 2.6.29, created on 2018-08-08 10:25:30
@@ -157,3 +163,4 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_inclu
         function(){ldelim}SUGAR.util.buildAccessKeyLabels();{rdelim});
 </script>
 >>>>>>> Prospect:cache/smarty/templates_c/%%45^451^4518C478%%footer.tpl.php
+>>>>>>> master

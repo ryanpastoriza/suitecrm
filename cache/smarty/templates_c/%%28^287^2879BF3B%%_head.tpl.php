@@ -1,3 +1,4 @@
+<?php /* Smarty version 2.6.29, created on 2018-08-08 03:05:44
 <?php /* Smarty version 2.6.29, created on 2018-08-08 10:25:24
          compiled from themes/SuiteP/tpls/_head.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
