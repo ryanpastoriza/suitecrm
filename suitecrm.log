@@ -54,3 +54,218 @@ Wed Aug  8 10:25:30 2018 [5432][b81361c7-93bb-c7c9-d3a8-5b6a5662dfea][FATAL] Sug
 #9 C:\wamp\www\suitecrm\include\MVC\SugarApplication.php(109): SugarController->execute()
 #10 C:\wamp\www\suitecrm\index.php(52): SugarApplication->execute()
 #11 {main}
+08/09/18 01:05:18 [4688][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/09/18 01:21:29 [4688][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/09/18 02:42:47 [4688][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/10/18 00:57:54 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] Error retrieving sales quote details Query Failed: SELECT
+        Sum(jump_autofinancing_cstm.chatelfee_c) AS cha
+        FROM
+        jump_quote_jump_autofinancing_1_c
+        INNER JOIN jump_autofinancing_cstm ON jump_quote_jump_autofinancing_1_c.jump_quote_jump_autofinancing_1jump_autofinancing_idb = jump_autofinancing_cstm.id_c
+        WHERE
+        jump_quote_jump_autofinancing_1_c.deleted = '0' AND
+        jump_autofinancing_cstm.chatelfeefree_c = '0' AND
+        jump_quote_jump_autofinancing_1_c.jump_quote_jump_autofinancing_1jump_quote_ida = 'eecb5bb5-5161-a074-30dc-5b6c01febc3b': MySQL error 1054: Unknown column 'jump_autofinancing_cstm.chatelfee_c' in 'field list'
+08/10/18 00:57:54 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] Exception handling in C:\wamp64\www\suitecrm\include\MVC\Controller\SugarController.php:402
+08/10/18 00:57:54 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+08/10/18 00:57:54 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] backtrace:
+#0 C:\wamp64\www\suitecrm\include\database\DBManager.php(353): sugar_die('Database failur...')
+#1 C:\wamp64\www\suitecrm\include\database\DBManager.php(328): DBManager->registerError('Error retrievin...', 'MySQL error 105...', true)
+#2 C:\wamp64\www\suitecrm\include\database\MysqliManager.php(167): DBManager->checkError('Error retrievin...', true)
+#3 C:\wamp64\www\suitecrm\custom\modules\jump_Quote\DetailController.php(123): MysqliManager->query('SELECT\r\n       ...', true, 'Error retrievin...')
+#4 C:\wamp64\www\suitecrm\custom\modules\jump_Quote\DetailController.php(36): DetailController->getCha('eecb5bb5-5161-a...')
+#5 C:\wamp64\www\suitecrm\custom\modules\jump_Quote\controller.php(20): DetailController->getQuoteDetail('eecb5bb5-5161-a...')
+#6 C:\wamp64\www\suitecrm\include\MVC\Controller\SugarController.php(523): Jump_QuoteController->action_detailview()
+#7 C:\wamp64\www\suitecrm\include\MVC\Controller\SugarController.php(491): SugarController->do_action()
+#8 C:\wamp64\www\suitecrm\include\MVC\Controller\SugarController.php(465): SugarController->handle_action()
+#9 C:\wamp64\www\suitecrm\include\MVC\Controller\SugarController.php(373): SugarController->process()
+#10 C:\wamp64\www\suitecrm\include\MVC\SugarApplication.php(109): SugarController->execute()
+#11 C:\wamp64\www\suitecrm\index.php(52): SugarApplication->execute()
+#12 {main}
+08/10/18 00:58:08 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/10/18 00:58:34 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] Error retrieving sales quote details Query Failed: SELECT
+        Sum(jump_autofinancing_cstm.chatelfee_c) AS cha
+        FROM
+        jump_quote_jump_autofinancing_1_c
+        INNER JOIN jump_autofinancing_cstm ON jump_quote_jump_autofinancing_1_c.jump_quote_jump_autofinancing_1jump_autofinancing_idb = jump_autofinancing_cstm.id_c
+        WHERE
+        jump_quote_jump_autofinancing_1_c.deleted = '0' AND
+        jump_autofinancing_cstm.chatelfeefree_c = '0' AND
+        jump_quote_jump_autofinancing_1_c.jump_quote_jump_autofinancing_1jump_quote_ida = 'a4356705-f759-bb62-449d-5b6ce37a39ca': MySQL error 1054: Unknown column 'jump_autofinancing_cstm.chatelfee_c' in 'field list'
+08/10/18 00:58:34 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] Exception handling in C:\wamp64\www\suitecrm\include\MVC\Controller\SugarController.php:402
+08/10/18 00:58:34 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+08/10/18 00:58:34 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] backtrace:
+#0 C:\wamp64\www\suitecrm\include\database\DBManager.php(353): sugar_die('Database failur...')
+#1 C:\wamp64\www\suitecrm\include\database\DBManager.php(328): DBManager->registerError('Error retrievin...', 'MySQL error 105...', true)
+#2 C:\wamp64\www\suitecrm\include\database\MysqliManager.php(167): DBManager->checkError('Error retrievin...', true)
+#3 C:\wamp64\www\suitecrm\custom\modules\jump_Quote\DetailController.php(123): MysqliManager->query('SELECT\r\n       ...', true, 'Error retrievin...')
+#4 C:\wamp64\www\suitecrm\custom\modules\jump_Quote\DetailController.php(36): DetailController->getCha('a4356705-f759-b...')
+#5 C:\wamp64\www\suitecrm\custom\modules\jump_Quote\controller.php(20): DetailController->getQuoteDetail('a4356705-f759-b...')
+#6 C:\wamp64\www\suitecrm\include\MVC\Controller\SugarController.php(523): Jump_QuoteController->action_detailview()
+#7 C:\wamp64\www\suitecrm\include\MVC\Controller\SugarController.php(491): SugarController->do_action()
+#8 C:\wamp64\www\suitecrm\include\MVC\Controller\SugarController.php(465): SugarController->handle_action()
+#9 C:\wamp64\www\suitecrm\include\MVC\Controller\SugarController.php(373): SugarController->process()
+#10 C:\wamp64\www\suitecrm\include\MVC\SugarApplication.php(109): SugarController->execute()
+#11 C:\wamp64\www\suitecrm\index.php(52): SugarApplication->execute()
+#12 {main}
+08/10/18 00:58:40 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] Error retrieving sales quote details Query Failed: SELECT
+        Sum(jump_autofinancing_cstm.chatelfee_c) AS cha
+        FROM
+        jump_quote_jump_autofinancing_1_c
+        INNER JOIN jump_autofinancing_cstm ON jump_quote_jump_autofinancing_1_c.jump_quote_jump_autofinancing_1jump_autofinancing_idb = jump_autofinancing_cstm.id_c
+        WHERE
+        jump_quote_jump_autofinancing_1_c.deleted = '0' AND
+        jump_autofinancing_cstm.chatelfeefree_c = '0' AND
+        jump_quote_jump_autofinancing_1_c.jump_quote_jump_autofinancing_1jump_quote_ida = 'a4356705-f759-bb62-449d-5b6ce37a39ca': MySQL error 1054: Unknown column 'jump_autofinancing_cstm.chatelfee_c' in 'field list'
+08/10/18 00:58:40 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] Exception handling in C:\wamp64\www\suitecrm\include\MVC\Controller\SugarController.php:402
+08/10/18 00:58:40 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+08/10/18 00:58:40 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] backtrace:
+#0 C:\wamp64\www\suitecrm\include\database\DBManager.php(353): sugar_die('Database failur...')
+#1 C:\wamp64\www\suitecrm\include\database\DBManager.php(328): DBManager->registerError('Error retrievin...', 'MySQL error 105...', true)
+#2 C:\wamp64\www\suitecrm\include\database\MysqliManager.php(167): DBManager->checkError('Error retrievin...', true)
+#3 C:\wamp64\www\suitecrm\custom\modules\jump_Quote\DetailController.php(123): MysqliManager->query('SELECT\r\n       ...', true, 'Error retrievin...')
+#4 C:\wamp64\www\suitecrm\custom\modules\jump_Quote\DetailController.php(36): DetailController->getCha('a4356705-f759-b...')
+#5 C:\wamp64\www\suitecrm\custom\modules\jump_Quote\controller.php(20): DetailController->getQuoteDetail('a4356705-f759-b...')
+#6 C:\wamp64\www\suitecrm\include\MVC\Controller\SugarController.php(523): Jump_QuoteController->action_detailview()
+#7 C:\wamp64\www\suitecrm\include\MVC\Controller\SugarController.php(491): SugarController->do_action()
+#8 C:\wamp64\www\suitecrm\include\MVC\Controller\SugarController.php(465): SugarController->handle_action()
+#9 C:\wamp64\www\suitecrm\include\MVC\Controller\SugarController.php(373): SugarController->process()
+#10 C:\wamp64\www\suitecrm\include\MVC\SugarApplication.php(109): SugarController->execute()
+#11 C:\wamp64\www\suitecrm\index.php(52): SugarApplication->execute()
+#12 {main}
+08/10/18 01:06:30 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] Error retrieving sales quote details Query Failed: SELECT
+        Sum(jump_autofinancing_cstm.chatelfee_c) AS cha
+        FROM
+        jump_quote_jump_autofinancing_1_c
+        INNER JOIN jump_autofinancing_cstm ON jump_quote_jump_autofinancing_1_c.jump_quote_jump_autofinancing_1jump_autofinancing_idb = jump_autofinancing_cstm.id_c
+        WHERE
+        jump_quote_jump_autofinancing_1_c.deleted = '0' AND
+        jump_autofinancing_cstm.chatelfeefree_c = '0' AND
+        jump_quote_jump_autofinancing_1_c.jump_quote_jump_autofinancing_1jump_quote_ida = 'eecb5bb5-5161-a074-30dc-5b6c01febc3b': MySQL error 1054: Unknown column 'jump_autofinancing_cstm.chatelfee_c' in 'field list'
+08/10/18 01:06:30 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] Exception handling in C:\wamp64\www\suitecrm\include\MVC\Controller\SugarController.php:402
+08/10/18 01:06:30 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+08/10/18 01:06:30 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] backtrace:
+#0 C:\wamp64\www\suitecrm\include\database\DBManager.php(353): sugar_die('Database failur...')
+#1 C:\wamp64\www\suitecrm\include\database\DBManager.php(328): DBManager->registerError('Error retrievin...', 'MySQL error 105...', true)
+#2 C:\wamp64\www\suitecrm\include\database\MysqliManager.php(167): DBManager->checkError('Error retrievin...', true)
+#3 C:\wamp64\www\suitecrm\custom\modules\jump_Quote\DetailController.php(123): MysqliManager->query('SELECT\r\n       ...', true, 'Error retrievin...')
+#4 C:\wamp64\www\suitecrm\custom\modules\jump_Quote\DetailController.php(36): DetailController->getCha('eecb5bb5-5161-a...')
+#5 C:\wamp64\www\suitecrm\custom\modules\jump_Quote\controller.php(20): DetailController->getQuoteDetail('eecb5bb5-5161-a...')
+#6 C:\wamp64\www\suitecrm\include\MVC\Controller\SugarController.php(523): Jump_QuoteController->action_detailview()
+#7 C:\wamp64\www\suitecrm\include\MVC\Controller\SugarController.php(491): SugarController->do_action()
+#8 C:\wamp64\www\suitecrm\include\MVC\Controller\SugarController.php(465): SugarController->handle_action()
+#9 C:\wamp64\www\suitecrm\include\MVC\Controller\SugarController.php(373): SugarController->process()
+#10 C:\wamp64\www\suitecrm\include\MVC\SugarApplication.php(109): SugarController->execute()
+#11 C:\wamp64\www\suitecrm\index.php(52): SugarApplication->execute()
+#12 {main}
+08/10/18 01:08:24 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] Error retrieving sales quote details Query Failed: SELECT
+        Sum(jump_autofinancing_cstm.chatelfee_c) AS cha
+        FROM
+        jump_quote_jump_autofinancing_1_c
+        INNER JOIN jump_autofinancing_cstm ON jump_quote_jump_autofinancing_1_c.jump_quote_jump_autofinancing_1jump_autofinancing_idb = jump_autofinancing_cstm.id_c
+        WHERE
+        jump_quote_jump_autofinancing_1_c.deleted = '0' AND
+        jump_autofinancing_cstm.chatelfeefree_c = '0' AND
+        jump_quote_jump_autofinancing_1_c.jump_quote_jump_autofinancing_1jump_quote_ida = 'a4356705-f759-bb62-449d-5b6ce37a39ca': MySQL error 1054: Unknown column 'jump_autofinancing_cstm.chatelfee_c' in 'field list'
+08/10/18 01:08:24 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] Exception handling in C:\wamp64\www\suitecrm\include\MVC\Controller\SugarController.php:402
+08/10/18 01:08:24 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+08/10/18 01:08:24 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] backtrace:
+#0 C:\wamp64\www\suitecrm\include\database\DBManager.php(353): sugar_die('Database failur...')
+#1 C:\wamp64\www\suitecrm\include\database\DBManager.php(328): DBManager->registerError('Error retrievin...', 'MySQL error 105...', true)
+#2 C:\wamp64\www\suitecrm\include\database\MysqliManager.php(167): DBManager->checkError('Error retrievin...', true)
+#3 C:\wamp64\www\suitecrm\custom\modules\jump_Quote\DetailController.php(123): MysqliManager->query('SELECT\r\n       ...', true, 'Error retrievin...')
+#4 C:\wamp64\www\suitecrm\custom\modules\jump_Quote\DetailController.php(36): DetailController->getCha('a4356705-f759-b...')
+#5 C:\wamp64\www\suitecrm\custom\modules\jump_Quote\controller.php(20): DetailController->getQuoteDetail('a4356705-f759-b...')
+#6 C:\wamp64\www\suitecrm\include\MVC\Controller\SugarController.php(523): Jump_QuoteController->action_detailview()
+#7 C:\wamp64\www\suitecrm\include\MVC\Controller\SugarController.php(491): SugarController->do_action()
+#8 C:\wamp64\www\suitecrm\include\MVC\Controller\SugarController.php(465): SugarController->handle_action()
+#9 C:\wamp64\www\suitecrm\include\MVC\Controller\SugarController.php(373): SugarController->process()
+#10 C:\wamp64\www\suitecrm\include\MVC\SugarApplication.php(109): SugarController->execute()
+#11 C:\wamp64\www\suitecrm\index.php(52): SugarApplication->execute()
+#12 {main}
+08/10/18 01:11:39 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] Error retrieving sales quote details Query Failed: SELECT
+        Sum(jump_autofinancing_cstm.chatelfee_c) AS cha
+        FROM
+        jump_quote_jump_autofinancing_1_c
+        INNER JOIN jump_autofinancing_cstm ON jump_quote_jump_autofinancing_1_c.jump_quote_jump_autofinancing_1jump_autofinancing_idb = jump_autofinancing_cstm.id_c
+        WHERE
+        jump_quote_jump_autofinancing_1_c.deleted = '0' AND
+        jump_autofinancing_cstm.chatelfeefree_c = '0' AND
+        jump_quote_jump_autofinancing_1_c.jump_quote_jump_autofinancing_1jump_quote_ida = 'a4356705-f759-bb62-449d-5b6ce37a39ca': MySQL error 1054: Unknown column 'jump_autofinancing_cstm.chatelfee_c' in 'field list'
+08/10/18 01:11:39 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] Exception handling in C:\wamp64\www\suitecrm\include\MVC\Controller\SugarController.php:402
+08/10/18 01:11:39 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+08/10/18 01:11:39 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] backtrace:
+#0 C:\wamp64\www\suitecrm\include\database\DBManager.php(353): sugar_die('Database failur...')
+#1 C:\wamp64\www\suitecrm\include\database\DBManager.php(328): DBManager->registerError('Error retrievin...', 'MySQL error 105...', true)
+#2 C:\wamp64\www\suitecrm\include\database\MysqliManager.php(167): DBManager->checkError('Error retrievin...', true)
+#3 C:\wamp64\www\suitecrm\custom\modules\jump_Quote\DetailController.php(123): MysqliManager->query('SELECT\r\n       ...', true, 'Error retrievin...')
+#4 C:\wamp64\www\suitecrm\custom\modules\jump_Quote\DetailController.php(36): DetailController->getCha('a4356705-f759-b...')
+#5 C:\wamp64\www\suitecrm\custom\modules\jump_Quote\controller.php(20): DetailController->getQuoteDetail('a4356705-f759-b...')
+#6 C:\wamp64\www\suitecrm\include\MVC\Controller\SugarController.php(523): Jump_QuoteController->action_detailview()
+#7 C:\wamp64\www\suitecrm\include\MVC\Controller\SugarController.php(491): SugarController->do_action()
+#8 C:\wamp64\www\suitecrm\include\MVC\Controller\SugarController.php(465): SugarController->handle_action()
+#9 C:\wamp64\www\suitecrm\include\MVC\Controller\SugarController.php(373): SugarController->process()
+#10 C:\wamp64\www\suitecrm\include\MVC\SugarApplication.php(109): SugarController->execute()
+#11 C:\wamp64\www\suitecrm\index.php(52): SugarApplication->execute()
+#12 {main}
+08/10/18 01:13:12 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] Error retrieving sales quote details Query Failed: SELECT
+        Sum(jump_autofinancing_cstm.chatelfee_c) AS cha
+        FROM
+        jump_quote_jump_autofinancing_1_c
+        INNER JOIN jump_autofinancing_cstm ON jump_quote_jump_autofinancing_1_c.jump_quote_jump_autofinancing_1jump_autofinancing_idb = jump_autofinancing_cstm.id_c
+        WHERE
+        jump_quote_jump_autofinancing_1_c.deleted = '0' AND
+        jump_autofinancing_cstm.chatelfeefree_c = '0' AND
+        jump_quote_jump_autofinancing_1_c.jump_quote_jump_autofinancing_1jump_quote_ida = 'eecb5bb5-5161-a074-30dc-5b6c01febc3b': MySQL error 1054: Unknown column 'jump_autofinancing_cstm.chatelfee_c' in 'field list'
+08/10/18 01:13:12 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] Exception handling in C:\wamp64\www\suitecrm\include\MVC\Controller\SugarController.php:402
+08/10/18 01:13:12 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+08/10/18 01:13:12 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] backtrace:
+#0 C:\wamp64\www\suitecrm\include\database\DBManager.php(353): sugar_die('Database failur...')
+#1 C:\wamp64\www\suitecrm\include\database\DBManager.php(328): DBManager->registerError('Error retrievin...', 'MySQL error 105...', true)
+#2 C:\wamp64\www\suitecrm\include\database\MysqliManager.php(167): DBManager->checkError('Error retrievin...', true)
+#3 C:\wamp64\www\suitecrm\custom\modules\jump_Quote\DetailController.php(123): MysqliManager->query('SELECT\r\n       ...', true, 'Error retrievin...')
+#4 C:\wamp64\www\suitecrm\custom\modules\jump_Quote\DetailController.php(36): DetailController->getCha('eecb5bb5-5161-a...')
+#5 C:\wamp64\www\suitecrm\custom\modules\jump_Quote\controller.php(20): DetailController->getQuoteDetail('eecb5bb5-5161-a...')
+#6 C:\wamp64\www\suitecrm\include\MVC\Controller\SugarController.php(523): Jump_QuoteController->action_detailview()
+#7 C:\wamp64\www\suitecrm\include\MVC\Controller\SugarController.php(491): SugarController->do_action()
+#8 C:\wamp64\www\suitecrm\include\MVC\Controller\SugarController.php(465): SugarController->handle_action()
+#9 C:\wamp64\www\suitecrm\include\MVC\Controller\SugarController.php(373): SugarController->process()
+#10 C:\wamp64\www\suitecrm\include\MVC\SugarApplication.php(109): SugarController->execute()
+#11 C:\wamp64\www\suitecrm\index.php(52): SugarApplication->execute()
+#12 {main}
+08/10/18 01:21:09 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/10/18 01:22:41 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/10/18 01:56:41 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/10/18 02:02:03 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/10/18 02:03:48 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/10/18 02:07:08 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/10/18 02:07:34 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/10/18 02:08:20 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/10/18 02:09:01 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/10/18 02:09:51 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/10/18 02:12:05 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/10/18 02:13:29 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/10/18 02:15:15 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/10/18 02:15:28 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/10/18 02:15:41 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/10/18 02:17:35 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/10/18 02:18:47 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/10/18 02:20:24 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/10/18 02:24:32 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/10/18 02:34:43 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/10/18 02:39:51 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/10/18 02:42:10 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/10/18 02:42:59 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/10/18 02:43:13 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/10/18 02:47:01 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/10/18 02:49:36 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/10/18 02:52:32 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/10/18 02:54:04 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/10/18 02:59:18 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/10/18 03:01:18 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/10/18 03:01:30 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/10/18 03:02:45 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/10/18 03:08:39 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/10/18 03:11:12 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/10/18 03:12:29 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/10/18 03:14:49 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array

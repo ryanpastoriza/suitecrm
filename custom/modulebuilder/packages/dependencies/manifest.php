@@ -61,15 +61,6 @@ $manifest = array (
   'readme' => '',
   'key' => 'j41',
   'author' => 'Juan Dela Cruz',
-<<<<<<< HEAD
-  'description' => 'Packages for dependencies',
-  'icon' => '',
-  'is_uninstallable' => true,
-  'name' => 'dependencies',
-  'published_date' => '2018-07-30 01:43:09',
-  'type' => 'module',
-  'version' => 1532914989,
-=======
   'description' => '',
   'icon' => '',
   'is_uninstallable' => true,
@@ -77,7 +68,6 @@ $manifest = array (
   'published_date' => '2018-08-08 08:11:56',
   'type' => 'module',
   'version' => 1533715917,
->>>>>>> master
   'remove_tables' => 'prompt',
 );
 
