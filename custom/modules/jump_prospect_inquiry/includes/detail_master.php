@@ -15,12 +15,12 @@
 		if( act_status == 'active' ){
 			$(".module-title-text").append( "<small class='text-success'><b>( " + act_status + " )</b></small>" );
 
-			$("#tab-actions").after("<button class='btn btn-danger master_btns'><span class='glyphicon glyphicon-remove-sign'></span> Deactivate</button>");
+			$("#tab-actions").after("<button class='btn btn-danger master_btns' action_status='inactive'><span class='glyphicon glyphicon-remove-sign'></span> Deactivate</button>");
 		}
 		else {
 			$(".module-title-text").append( "<small class='text-danger'><b>( " + act_status + " )</b></small>" );
 
-			$("#tab-actions").after("<button class='btn btn-success master_btns'><span class='glyphicon glyphicon-ok-sign'></span> Activate</button>");
+			$("#tab-actions").after("<button class='btn btn-success master_btns' action_status='active'><span class='glyphicon glyphicon-ok-sign'></span> Activate</button>");
 		}
 
 
@@ -46,6 +46,7 @@
 			data: {'id': id, 'action_status': action_status},
 		})
 		.done(function(data) {
+			console.log(data)
 			location.reload();
 		})
 		.fail(function(xhr) {
