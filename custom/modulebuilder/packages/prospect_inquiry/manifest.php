@@ -72,5 +72,4 @@ $manifest = array (
   'type' => 'module',
   'version' => 1533699740,
   'remove_tables' => 'prompt',
-);
-
+); 
