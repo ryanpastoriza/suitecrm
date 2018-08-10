@@ -76,4 +76,5 @@ $mod_strings = array (
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
   'LBL_M20_ACTIVITY_SUBPANEL_TITLE' => 'Activity',
   'LBL_NEW_FORM_TITLE' => 'New Activity',
+  'LBL_ACTIVITYTYPE' => 'Activity Type',
 );
