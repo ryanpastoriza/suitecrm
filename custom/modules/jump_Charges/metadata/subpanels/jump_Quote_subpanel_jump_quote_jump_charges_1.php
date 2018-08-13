@@ -1,13 +1,6 @@
 <?php
-// created: 2018-08-10 02:48:11
+// created: 2018-08-13 01:15:50
 $subpanel_layout['list_fields'] = array (
-  'name' => 
-  array (
-    'vname' => 'LBL_NAME',
-    'widget_class' => 'SubPanelDetailViewLink',
-    'width' => '45%',
-    'default' => true,
-  ),
   'chargecode_c' => 
   array (
     'type' => 'relate',
@@ -15,19 +8,18 @@ $subpanel_layout['list_fields'] = array (
     'studio' => 'visible',
     'vname' => 'LBL_CHARGECODE',
     'id' => 'JUMP_CHARGELIST_ID_C',
-    'link' => true,
     'width' => '10%',
+    'link' => true,
     'widget_class' => 'SubPanelDetailViewLink',
-    'target_module' => 'jump_ChargeList',
-    'target_record_key' => 'jump_chargelist_id_c',
+    'target_module' => NULL,
+    'target_record_key' => NULL,
   ),
-  'chargetype_c' => 
+  'chargetype2_c' => 
   array (
     'type' => 'enum',
     'default' => true,
     'studio' => 'visible',
-    'vname' => 'LBL_CHARGETYPE',
-    'width' => '10%',
+    'vname' => 'LBL_CHARGETYPE2',
   ),
   'free_c' => 
   array (

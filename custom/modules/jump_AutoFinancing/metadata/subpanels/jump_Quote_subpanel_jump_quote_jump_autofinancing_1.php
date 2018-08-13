@@ -11,8 +11,8 @@ $subpanel_layout['list_fields'] = array (
     'link' => true,
     'width' => '10%',
     'widget_class' => 'SubPanelDetailViewLink',
-    'target_module' => 'jump_FinancingTerm',
-    'target_record_key' => 'jump_financingterm_id_c',
+    'target_module' => NULL,
+    'target_record_key' => NULL,
   ),
   'chattelfeefree_c' => 
   array (
@@ -33,7 +33,6 @@ $subpanel_layout['list_fields'] = array (
     'type' => 'varchar',
     'default' => true,
     'vname' => 'LBL_DOWNPAYMENT',
-    'width' => '10%',
   ),
   'downpaymentp_c' => 
   array (

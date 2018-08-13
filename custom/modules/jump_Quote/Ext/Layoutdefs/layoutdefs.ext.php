@@ -137,4 +137,8 @@ $layout_defs['jump_Quote']['subpanel_setup']['jump_quote_jump_charges_1']['overr
 //auto-generated file DO NOT EDIT
 $layout_defs['jump_Quote']['subpanel_setup']['jump_quote_jump_discount_1']['override_subpanel_name'] = 'jump_Quote_subpanel_jump_quote_jump_discount_1';
 
+
+//auto-generated file DO NOT EDIT
+$layout_defs['jump_Quote']['subpanel_setup']['jump_quote_jump_insurancecharges_1']['override_subpanel_name'] = 'jump_Quote_subpanel_jump_quote_jump_insurancecharges_1';
+
 ?>

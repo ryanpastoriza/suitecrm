@@ -7,6 +7,10 @@ $subpanel_layout['list_fields'] = array (
     'default' => true,
     'vname' => 'LBL_DISCOUNTNAME',
     'width' => '10%',
+    'link' => true,
+    'widget_class' => 'SubPanelDetailViewLink',
+    'target_module' => NULL,
+    'target_record_key' => NULL,
   ),
   'description2_c' => 
   array (

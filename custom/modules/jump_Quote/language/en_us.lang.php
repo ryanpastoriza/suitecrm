@@ -1,5 +1,5 @@
 <?php
-// created: 2018-08-10 03:09:53
+// created: 2018-08-13 00:48:34
 $mod_strings = array (
   'LBL_NAME' => 'Sales Quote ID',
   'LBL_DATE_ENTERED' => 'Quote Date',
@@ -31,4 +31,5 @@ $mod_strings = array (
   'LBL_JUMP_QUOTE_JUMP_AUTOFINANCING_1_FROM_JUMP_AUTOFINANCING_TITLE' => 'Auto Financing',
   'LBL_JUMP_QUOTE_JUMP_CHARGES_1_FROM_JUMP_CHARGES_TITLE' => 'Charges',
   'LBL_JUMP_QUOTE_JUMP_DISCOUNT_1_FROM_JUMP_DISCOUNT_TITLE' => 'Discount',
+  'LBL_JUMP_QUOTE_JUMP_INSURANCECHARGES_1_FROM_JUMP_INSURANCECHARGES_TITLE' => 'Insurance Charges',
 );
