@@ -1,4 +1,5 @@
 <?php
+// created: 2018-08-10 05:20:45
 // created: 2018-08-10 00:35:51
 $dictionary["m20_opportunity_jump_quote_1"] = array (
   'true_relationship_type' => 'one-to-many',

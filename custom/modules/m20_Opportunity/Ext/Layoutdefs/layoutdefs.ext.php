@@ -2,6 +2,7 @@
  //WARNING: The contents of this file are auto-generated
 
 
+ // created: 2018-08-10 05:20:45
  // created: 2018-08-10 00:35:51
 $layout_defs["m20_Opportunity"]["subpanel_setup"]['m20_opportunity_jump_quote_1'] = array (
   'order' => 100,
@@ -48,5 +49,13 @@ $layout_defs["m20_Opportunity"]["subpanel_setup"]['m20_opportunity_m20_activity_
     ),
   ),
 );
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['m20_Opportunity']['subpanel_setup']['m20_opportunity_jump_quote_1']['override_subpanel_name'] = 'm20_Opportunity_subpanel_m20_opportunity_jump_quote_1';
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['m20_Opportunity']['subpanel_setup']['m20_opportunity_m20_activity_1']['override_subpanel_name'] = 'm20_Opportunity_subpanel_m20_opportunity_m20_activity_1';
 
 ?>

@@ -1,4 +1,5 @@
 <?php
+ // created: 2018-08-10 05:20:45
  // created: 2018-08-10 00:35:51
 $layout_defs["m20_Opportunity"]["subpanel_setup"]['m20_opportunity_jump_quote_1'] = array (
   'order' => 100,

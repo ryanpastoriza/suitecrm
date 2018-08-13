@@ -20,6 +20,25 @@ array (
           'field' => '30',
         ),
       ),
+    ),
+    'panels' => 
+    array (
+      'default' => 
+      array (
+        0 => 
+        array (
+          0 => 'name',
+          1 => 'assigned_user_name',
+        ),
+        1 => 
+        array (
+          0 => 'description',
+          1 => 
+          array (
+            'name' => 'm20_opportunity_jump_quote_1_name',
+          ),
+        ),
+      ),
       'useTabs' => false,
       'tabDefs' => 
       array (
@@ -161,5 +180,5 @@ array (
     ),
   ),
 );
-;
+
 ?>

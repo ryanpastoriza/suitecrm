@@ -11,6 +11,9 @@ array (
         'buttons' => 
         array (
           0 => 'EDIT',
+          1 => 'DUPLICATE',
+          2 => 'DELETE',
+          3 => 'FIND_DUPLICATES',
           1 => '',
           2 => 'DELETE',
           3 => '',
@@ -42,6 +45,29 @@ array (
           'field' => '30',
         ),
       ),
+    ),
+    'panels' => 
+    array (
+      'default' => 
+      array (
+        0 => 
+        array (
+          0 => 'name',
+          1 => 'assigned_user_name',
+        ),
+        1 => 
+        array (
+          0 => 'date_entered',
+          1 => 'date_modified',
+        ),
+        2 => 
+        array (
+          0 => 'description',
+          1 => 
+          array (
+            'name' => 'm20_opportunity_jump_quote_1_name',
+          ),
+        ),
       'useTabs' => false,
       'tabDefs' => 
       array (
@@ -177,6 +203,6 @@ array (
       ),
     ),
   ),
+),
 );
-;
 ?>
