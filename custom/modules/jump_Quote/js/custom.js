@@ -1,6 +1,16 @@
 
 SUGAR.util.doWhen("typeof $ != 'undefined'", function(){  
+    $(function() {
+        let paymentmode = document.getElementById('paymentmode_c').value;
+        if(paymentmode=="Cash"){
+            $('#jump_quote_jump_autofinancing_1_create_button').prop('disabled', true);
+            $('#jump_quote_jump_autofinancing_1_select_button').prop('disabled', true);
+            
+        }
+    });
+    
     $(document).on('click', '#jump_quote_jump_autofinancing_1_create_button', function(event) {
+        
         setTimeout(function(){
         $('#amountfinanced_c').prop('readonly', true);
         $('#discount1_c').prop('readonly', true);
@@ -53,8 +63,6 @@ SUGAR.util.doWhen("typeof $ != 'undefined'", function(){
                             ft = parseInt(x.value);
                         }
                         var up = $('#unitprice_c').text();
-                        console.log(up)
-                        console.log(ft)
                         var am = up/ft;
                         
                         if(am.toFixed(2)!="Infinity"){
