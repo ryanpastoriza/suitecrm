@@ -8,6 +8,7 @@ array (
     'default' => true,
     'label' => 'LBL_INQUIRY_NUMBER',
     'width' => '10%',
+    'link' => true
   ),
   'INQUIRY_DATE_C' => 
   array (
@@ -21,7 +22,7 @@ array (
     'width' => '32%',
     'label' => 'LBL_NAME',
     'default' => true,
-    'link' => true,
+    'link' => false
   ),
   'COMPANY_NAME_C' => 
   array (
@@ -133,6 +134,7 @@ array (
     'id' => 'CREATED_BY',
     'width' => '10%',
     'default' => true,
+    'link' => false
   ),
 );
 ;
@@ -145,7 +147,7 @@ $action = $a[1];
 if( $action == "action=index" ){
 
     unset($listViewDefs [$module_name]['ACTIVATION_STATUS_C']);
-    unset($listViewDefs [$module_name]['DISQ_REASON_C']);
+    // unset($listViewDefs [$module_name]['DISQ_REASON_C']);
     unset($listViewDefs [$module_name]['COMPANY_NAME_C']);
 
 }

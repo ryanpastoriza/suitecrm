@@ -1,4 +1,9 @@
 <<<<<<< HEAD
+Mon Aug 13 02:50:28 2018 [3568][b81361c7-93bb-c7c9-d3a8-5b6a5662dfea][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Mon Aug 13 03:04:04 2018 [3568][b81361c7-93bb-c7c9-d3a8-5b6a5662dfea][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Mon Aug 13 03:06:16 2018 [3568][b81361c7-93bb-c7c9-d3a8-5b6a5662dfea][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+=======
+<<<<<<< HEAD
 Thu Apr 26 06:02:28 2018 [5484][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
 Mon May 28 03:37:04 2018 [1624][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
 Mon May 28 03:37:14 2018 [1624][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
@@ -389,3 +394,4 @@ Mon Aug 13 03:08:34 2018 [11648][a9fc924f-07cb-627b-ca47-5b6a561ca69c][FATAL] Su
 #5 C:\wamp64\www\suitecrm\index.php(52): SugarApplication->execute()
 #6 {main}
 >>>>>>> quote
+>>>>>>> master
