@@ -1,45 +1,52 @@
 <?php
-// created: 2018-08-13 00:48:34
-$subpanel_layout['list_fields'] = array (
-  'providercompany_c' => 
+// created: 2018-08-13 01:15:50
+$layout_defs = array (
+  'chargecode_c' => 
   array (
     'type' => 'relate',
     'default' => true,
     'studio' => 'visible',
-    'vname' => 'LBL_PROVIDERCOMPANY',
-    'id' => 'JUMP_COMPANY_ID_C',
+    'vname' => 'LBL_CHARGECODE',
+    'id' => 'JUMP_CHARGELIST_ID_C',
+  ),
+  'chargetype_c' => 
+  array (
+    'type' => 'enum',
+    'default' => true,
+    'studio' => 'visible',
+    'vname' => 'LBL_CHARGETYPE',
+    'width' => '10%',
     'link' => true,
     'widget_class' => 'SubPanelDetailViewLink',
     'target_module' => NULL,
     'target_record_key' => NULL,
   ),
-  'insurancecoverage_c' => 
+  'free_c' => 
   array (
-    'type' => 'enum',
+    'type' => 'bool',
     'default' => true,
-    'studio' => 'visible',
-    'vname' => 'LBL_INSURANCECOVERAGE',
+    'vname' => 'LBL_FREE',
     'width' => '10%',
   ),
-  'ctpl_c' => 
+  'actualcost2_c' => 
   array (
     'type' => 'varchar',
     'default' => true,
-    'vname' => 'LBL_CTPL',
+    'vname' => 'LBL_ACTUALCOST2',
     'width' => '10%',
   ),
-  'totalinsurancecharges_c' => 
+  'amount2_c' => 
   array (
     'type' => 'varchar',
     'default' => true,
-    'vname' => 'LBL_TOTALINSURANCECHARGES',
+    'vname' => 'LBL_AMOUNT2',
     'width' => '10%',
   ),
   'edit_button' => 
   array (
     'vname' => 'LBL_EDIT_BUTTON',
     'widget_class' => 'SubPanelEditButton',
-    'module' => 'jump_InsuranceCharges',
+    'module' => 'jump_Charges',
     'width' => '4%',
     'default' => true,
   ),
@@ -47,7 +54,7 @@ $subpanel_layout['list_fields'] = array (
   array (
     'vname' => 'LBL_REMOVE',
     'widget_class' => 'SubPanelRemoveButton',
-    'module' => 'jump_InsuranceCharges',
+    'module' => 'jump_Charges',
     'width' => '5%',
     'default' => true,
   ),
