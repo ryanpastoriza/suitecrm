@@ -2,7 +2,6 @@
  //WARNING: The contents of this file are auto-generated
 
 
-// created: 2018-08-10 05:20:45
 // created: 2018-08-09 02:39:46
 $dictionary["jump_Quote"]["fields"]["jump_quote_jump_accessories_1"] = array (
   'name' => 'jump_quote_jump_accessories_1',
@@ -68,6 +67,7 @@ $dictionary["jump_Quote"]["fields"]["jump_quote_jump_insurancecharges_1"] = arra
 );
 
 
+// created: 2018-08-10 05:20:45
 // created: 2018-08-10 00:35:51
 $dictionary["jump_Quote"]["fields"]["m20_opportunity_jump_quote_1"] = array (
   'name' => 'm20_opportunity_jump_quote_1',

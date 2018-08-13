@@ -360,3 +360,5 @@ Mon Aug 13 03:08:34 2018 [11648][a9fc924f-07cb-627b-ca47-5b6a561ca69c][FATAL] Su
 08/10/18 03:12:29 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
 08/10/18 03:14:49 [2812][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
 >>>>>>> master
+08/13/18 01:47:14 [10560][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/13/18 01:47:44 [10560][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
