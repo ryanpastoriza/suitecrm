@@ -135,8 +135,8 @@
 		public function action_master_status_update(){
 			$db = DBManagerFactory::getInstance();
 
-			$id     	 = $_REQUEST['id'];
-			$action_status 	 = $_REQUEST['action_status'];
+			$id     	 	= $_REQUEST['id'];
+			$action_status 	= $_REQUEST['action_status'];
 
 			$query = "UPDATE
 						jump_prospect_inquiry_cstm
