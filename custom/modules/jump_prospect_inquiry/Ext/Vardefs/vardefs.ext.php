@@ -92,7 +92,7 @@ $dictionary['jump_prospect_inquiry']['fields']['date_entered']['merge_filter']='
 
  
 
- // created: 2018-08-01 03:16:15
+ // created: 2018-08-13 02:10:54
 $dictionary['jump_prospect_inquiry']['fields']['disq_reason_c']['inline_edit']='';
 $dictionary['jump_prospect_inquiry']['fields']['disq_reason_c']['labelValue']='Disqualification Reason';
 
@@ -116,7 +116,7 @@ $dictionary['jump_prospect_inquiry']['fields']['financing_term_c']['labelValue']
 
  
 
- // created: 2018-08-08 07:20:21
+ // created: 2018-08-13 04:12:02
 $dictionary['jump_prospect_inquiry']['fields']['fname_c']['inline_edit']='';
 $dictionary['jump_prospect_inquiry']['fields']['fname_c']['labelValue']='First Name';
 

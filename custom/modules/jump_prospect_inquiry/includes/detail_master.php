@@ -3,6 +3,8 @@
 	$activation_status = $this->bean->activation_status_c;
 	$id = $this->bean->id;
 
+
+
 ?>
 
 <script>
@@ -20,7 +22,7 @@
 		else {
 			$(".module-title-text").append( "<small class='text-danger'><b>( " + act_status + " )</b></small>" );
 
-			$("#tab-actions").after("<button class='btn btn-success master_btns' action_status='active'><span class='glyphicon glyphicon-ok-sign'></span> Activate</button>");
+			$("#tab-actions").after("<button class='btn btn-primary master_btns' action_status='active'><span class='glyphicon glyphicon-ok-sign'></span> Activate</button>");
 		}
 
 

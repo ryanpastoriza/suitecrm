@@ -101,17 +101,17 @@
 											null,
 											null, 
 											null, 
-											'". $opportunity_id ."', 
-											'" . $jump_prospect_inquiry_id_c . "',
-											'" . $lead_source_id ."', 
-											'" . $base_model_id ."', 
-											'". $payment_mode ."', 
-											'" . $financing_term_id . "', 
-											'". $user_id ."',
 											'" . $mode_desc_id . "', 
-											'" . $status_type ."', 
+											'" . $lead_source_id ."', 
+											'". $user_id ."',
+											'" . $base_model_id ."', 
 											'" . $color_id ."', 
-											'" . $inqry_number . "'
+											'" . $financing_term_id . "', 
+											'". $payment_mode ."', 
+											'" . $jump_prospect_inquiry_id_c . "',
+											'" . $inqry_number . "',
+											'". $opportunity_id ."', 
+											'" . $status_type ."' 
 									)";
 
 			$exec_insert_cstm   = $db->query($insert_qry_cstm, true);
@@ -121,15 +121,11 @@
 		}
 
 		public function action_individual_prospect_list(){
-
 			parent::action_listview();
-
 		}
 
 		public function action_corporate_prospect_list(){
-			
 			parent::action_listview();
-
 		}
 		
 		public function action_master_status_update(){
