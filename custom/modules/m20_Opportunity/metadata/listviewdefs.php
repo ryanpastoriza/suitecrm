@@ -93,8 +93,6 @@ array (
 ?>
 
 
-
-
 <script>
   $(function(){
     $('.advanced').addClass('hide');
