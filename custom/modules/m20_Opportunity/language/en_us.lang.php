@@ -1,5 +1,5 @@
 <?php
-// created: 2018-08-08 10:12:02
+// created: 2018-08-13 02:51:05
 $mod_strings = array (
   'LBL_BUDGET_AMOUNT' => 'Budget Amount',
   'LBL_PURCHASED_TIMEFRAME' => 'Purchased Time Frame',
@@ -7,4 +7,25 @@ $mod_strings = array (
   'LBL_DESCRIPTION' => 'Remarks',
   'LBL_MODEL_DESCRIPTION_AOS_PRODUCTS_ID' => 'Model Description (related  ID)',
   'LBL_MODEL_DESCRIPTION' => 'Model Description',
+  'LBL_LEAD_SOURCE_J41_LEAD_SOURCE_ID' => 'Lead Source (related  ID)',
+  'LBL_LEAD_SOURCE' => 'Lead Source',
+  'LBL_SALES_EXECUTIVE_USER_ID' => 'Sales Executive (related User ID)',
+  'LBL_SALES_EXECUTIVE' => 'Sales Executive',
+  'LBL_BASE_MODEL_J41_BASE_MODEL_ID' => 'Base Model (related  ID)',
+  'LBL_BASE_MODEL' => 'Base Model',
+  'LBL_COLOR_JUMP_COLOR_ID' => 'Color (related  ID)',
+  'LBL_COLOR' => 'Color',
+  'LBL_FINANCING_TERM_JUMP_FINANCINGTERM_ID' => 'Financing Term (related  ID)',
+  'LBL_FINANCING_TERM' => 'Financing Term',
+  'LBL_PAYMENTMODE' => 'Payment Mode',
+  'LBL_EDITVIEW_PANEL1' => 'New Opportunity',
+  'LBL_CUSTOMER_JUMP_PROSPECT_INQUIRY_ID' => 'Customer (related  ID)',
+  'LBL_CUSTOMER' => 'Customer',
+  'LBL_INQ_NUM' => 'Inquiry Number',
+  'LBL_EDITVIEW_PANEL2' => 'VEHICLE INQUIRED',
+  'LBL_EDITVIEW_PANEL3' => 'PAYMENT TERMS',
+  'LBL_OPPORTUNITYID' => 'Opportunity Id',
+  'LBL_STATUS' => 'Status',
+  'LBL_M20_OPPORTUNITY_M20_ACTIVITY_1_FROM_M20_ACTIVITY_TITLE' => 'Opportunity Activities',
+  'LBL_M20_OPPORTUNITY_JUMP_QUOTE_1_FROM_JUMP_QUOTE_TITLE' => 'Quote Information',
 );
