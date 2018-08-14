@@ -185,6 +185,7 @@ array (
   <li id="liwon"><button class="btn btn-whtie" value="won" id="won">CLOSE AS WON</button></li>
   <li id="lilost"><button class="btn btn-whtie" value="lost" id="lost">CLOSE AS LOST</button></li>
   <li id="lirepoen"><button class="btn btn-whtie" value="open" id="re-open">RE-OPEN</button></li>
+  <li id="liQuote"  class="hide"><button class="btn btn-whtie " value="open" id="quote">GENERATE QUOTE</button></li>
 </ul>
 
 
@@ -200,6 +201,7 @@ array (
     }
     if(status === 'open'){
       $('#lirepoen').addClass('hide');
+      $('#liQuote').removeClass('hide');
     }
 
     // alert($('#status_c').text());
