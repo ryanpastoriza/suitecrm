@@ -2,32 +2,22 @@
 $module_name = 'jump_prospect_inquiry';
 $viewdefs [$module_name] = 
 array (
-  'DetailView' => 
+  'EditView' => 
   array (
     'templateMeta' => 
     array (
-      'form' => 
-      array (
-        'buttons' => 
-        array (
-          0 => 'EDIT',
-          1 => 'DUPLICATE',
-          2 => 'DELETE',
-          3 => 'FIND_DUPLICATES',
-        ),
-      ),
       'maxColumns' => '2',
       'widths' => 
       array (
         0 => 
         array (
-          'label' => '10',
-          'field' => '30',
+          'label' => '5',
+          'field' => '15',
         ),
         1 => 
         array (
-          'label' => '10',
-          'field' => '30',
+          'label' => '5',
+          'field' => '15',
         ),
       ),
       'useTabs' => false,
@@ -59,22 +49,18 @@ array (
         array (
           0 => 
           array (
-            'name' => 'status_c',
-            'label' => 'LBL_STATUS',
-          ),
-          1 => '',
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
             'name' => 'prospect_type_c',
             'studio' => 'visible',
             'label' => 'LBL_PROSPECT_TYPE',
           ),
-          1 => 'date_entered',
+          1 => 
+          array (
+            'name' => 'date_entered',
+            'comment' => 'Date record created',
+            'label' => 'LBL_DATE_ENTERED',
+          ),
         ),
-        2 => 
+        1 => 
         array (
           0 => 
           array (
@@ -87,7 +73,7 @@ array (
             'label' => 'LBL_COMPANY_NAME',
           ),
         ),
-        3 => 
+        2 => 
         array (
           0 => 
           array (
@@ -100,7 +86,7 @@ array (
             'label' => 'LBL_WEBSITE',
           ),
         ),
-        4 => 
+        3 => 
         array (
           0 => 
           array (
@@ -114,7 +100,7 @@ array (
             'label' => 'LBL_GENDER',
           ),
         ),
-        5 => 
+        4 => 
         array (
           0 => 
           array (
@@ -128,7 +114,7 @@ array (
             'label' => 'LBL_MARITAL_STATUS',
           ),
         ),
-        6 => 
+        5 => 
         array (
           0 => 
           array (
@@ -137,7 +123,7 @@ array (
           ),
           1 => '',
         ),
-        7 => 
+        6 => 
         array (
           0 => 
           array (
@@ -150,7 +136,7 @@ array (
             'label' => 'LBL_BUSINESS_PHONE',
           ),
         ),
-        8 => 
+        7 => 
         array (
           0 => 
           array (
@@ -163,7 +149,7 @@ array (
             'label' => 'LBL_FAX',
           ),
         ),
-        9 => 
+        8 => 
         array (
           0 => 
           array (
@@ -176,12 +162,12 @@ array (
             'label' => 'LBL_TIN',
           ),
         ),
-        10 => 
+        9 => 
         array (
           0 => '',
           1 => '',
         ),
-        11 => 
+        10 => 
         array (
           0 => 
           array (
@@ -194,7 +180,7 @@ array (
             'label' => 'LBL_BASIC_ADDRESS',
           ),
         ),
-        12 => 
+        11 => 
         array (
           0 => 
           array (
@@ -207,9 +193,18 @@ array (
             'name' => 'province_c',
             'studio' => 'visible',
             'label' => 'LBL_PROVINCE',
+            'displayParams' => 
+            array (
+              'field_to_name_array' => 
+              array (
+                'id' => 'jump_province_id_c',
+                'name' => 'province_c',
+                'region_c' => 'region_c',
+              ),
+            ),
           ),
         ),
-        13 => 
+        12 => 
         array (
           0 => 
           array (
@@ -266,6 +261,15 @@ array (
             'name' => 'model_description_c',
             'studio' => 'visible',
             'label' => 'LBL_MODEL_DESCRIPTION',
+            'displayParams' => 
+            array (
+              'field_to_name_array' => 
+              array (
+                'id' => 'aos_products_id_c',
+                'name' => 'model_description_c',
+                'body_type_c' => 'body_type_c',
+              ),
+            ),
           ),
         ),
         3 => 
@@ -330,7 +334,12 @@ array (
             'name' => 'owning_branch_c',
             'label' => 'LBL_OWNING_BRANCH',
           ),
-          1 => 'date_modified',
+          1 => 
+          array (
+            'name' => 'date_modified',
+            'comment' => 'Date record last modified',
+            'label' => 'LBL_DATE_MODIFIED',
+          ),
         ),
         2 => 
         array (

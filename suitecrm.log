@@ -46,3 +46,8 @@ Tue Aug 14 04:12:35 2018 [10748][-none-][FATAL] Could not connect to DB server 1
 
 Tue Aug 14 04:13:04 2018 [10748][-none-][FATAL] Could not connect to DB server 192.168.1.2 as developers. port : A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
 
+Tue Aug 14 04:48:23 2018 [10748][-none-][FATAL] Could not connect to DB server 192.168.1.2 as developers. port : A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+Tue Aug 14 04:48:51 2018 [10748][-none-][FATAL] Could not connect to DB server 192.168.1.2 as developers. port : A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+Tue Aug 14 04:51:51 2018 [10748][b81361c7-93bb-c7c9-d3a8-5b6a5662dfea][FATAL] SugarBean::populateDefaultValues $field_defs should be an array

@@ -61,12 +61,11 @@ else{
 <script>
 	
 	var id 	   = '<?=$id?>';
-	var status = '<?=$status?>'.toLowerCase();
 	var disqualification_reason = "";
 	var detail_action = "<?=strtolower($detail_action)?>"
+	var status = "<?=strtolower($status)?>"
 
 	$(function(){
-
 		// ----- SET BUTTONS -------------------------------------------
 		if( status == 'open' ){
 			$("#tab-actions").after("\
