@@ -2,6 +2,40 @@
  //WARNING: The contents of this file are auto-generated
 
 
+// created: 2018-08-09 02:41:20
+$dictionary["jump_Discount"]["fields"]["jump_quote_jump_discount_1"] = array (
+  'name' => 'jump_quote_jump_discount_1',
+  'type' => 'link',
+  'relationship' => 'jump_quote_jump_discount_1',
+  'source' => 'non-db',
+  'module' => 'jump_Quote',
+  'bean_name' => 'jump_Quote',
+  'vname' => 'LBL_JUMP_QUOTE_JUMP_DISCOUNT_1_FROM_JUMP_QUOTE_TITLE',
+  'id_name' => 'jump_quote_jump_discount_1jump_quote_ida',
+);
+$dictionary["jump_Discount"]["fields"]["jump_quote_jump_discount_1_name"] = array (
+  'name' => 'jump_quote_jump_discount_1_name',
+  'type' => 'relate',
+  'source' => 'non-db',
+  'vname' => 'LBL_JUMP_QUOTE_JUMP_DISCOUNT_1_FROM_JUMP_QUOTE_TITLE',
+  'save' => true,
+  'id_name' => 'jump_quote_jump_discount_1jump_quote_ida',
+  'link' => 'jump_quote_jump_discount_1',
+  'table' => 'jump_quote',
+  'module' => 'jump_Quote',
+  'rname' => 'name',
+);
+$dictionary["jump_Discount"]["fields"]["jump_quote_jump_discount_1jump_quote_ida"] = array (
+  'name' => 'jump_quote_jump_discount_1jump_quote_ida',
+  'type' => 'link',
+  'relationship' => 'jump_quote_jump_discount_1',
+  'source' => 'non-db',
+  'reportable' => false,
+  'side' => 'right',
+  'vname' => 'LBL_JUMP_QUOTE_JUMP_DISCOUNT_1_FROM_JUMP_DISCOUNT_TITLE',
+);
+
+
  // created: 2018-08-08 05:53:06
 $dictionary['jump_Discount']['fields']['applyamounttoaf_c']['inline_edit']='1';
 $dictionary['jump_Discount']['fields']['applyamounttoaf_c']['labelValue']='Apply Amount to AF';
@@ -14,19 +48,19 @@ $dictionary['jump_Discount']['fields']['applyamounttodp_c']['labelValue']='Apply
 
  
 
- // created: 2018-08-08 05:59:29
+ // created: 2018-08-10 03:04:15
 $dictionary['jump_Discount']['fields']['applyamounttoup_c']['inline_edit']='1';
 $dictionary['jump_Discount']['fields']['applyamounttoup_c']['labelValue']='Apply Amount to UP';
 
  
 
- // created: 2018-08-08 06:00:04
+ // created: 2018-08-10 03:05:26
 $dictionary['jump_Discount']['fields']['applyptoaf_c']['inline_edit']='1';
 $dictionary['jump_Discount']['fields']['applyptoaf_c']['labelValue']='Apply % to AF';
 
  
 
- // created: 2018-08-08 06:00:32
+ // created: 2018-08-10 03:06:49
 $dictionary['jump_Discount']['fields']['applyptodp_c']['inline_edit']='1';
 $dictionary['jump_Discount']['fields']['applyptodp_c']['labelValue']='Apply % to DP';
 

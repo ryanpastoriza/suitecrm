@@ -33,8 +33,7 @@ class Jump_prospect_inquiryViewDetail extends ViewDetail
 	}
 
 	public function display(){
-		
-
 		parent::display();
 	}
+	
 }
