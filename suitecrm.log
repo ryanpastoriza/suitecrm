@@ -147,3 +147,12 @@ Mon Aug 13 02:53:33 2018 [11648][a9fc924f-07cb-627b-ca47-5b6a561ca69c][FATAL] ba
 #6 {main}
 Mon Aug 13 03:07:35 2018 [11648][a9fc924f-07cb-627b-ca47-5b6a561ca69c][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
 Mon Aug 13 03:08:34 2018 [11648][a9fc924f-07cb-627b-ca47-5b6a561ca69c][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Tue Aug 14 03:11:36 2018 [4228][a9fc924f-07cb-627b-ca47-5b6a561ca69c][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Tue Aug 14 03:14:33 2018 [4228][-none-][FATAL] Could not connect to DB server 192.168.1.2 as developers. port : A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+Tue Aug 14 03:15:27 2018 [4228][-none-][FATAL] Could not connect to DB server 192.168.1.2 as developers. port : A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+Tue Aug 14 03:15:39 2018 [4228][-none-][FATAL] Could not connect to DB server 192.168.1.2 as developers. port : A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+Tue Aug 14 03:15:51 2018 [4228][-none-][FATAL] Could not connect to DB server 192.168.1.2 as developers. port : A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
