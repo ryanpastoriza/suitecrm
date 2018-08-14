@@ -2,6 +2,19 @@
  //WARNING: The contents of this file are auto-generated
 
 
+// created: 2018-08-14 02:53:00
+$dictionary["jump_branch"]["fields"]["jump_branch_users_1"] = array (
+  'name' => 'jump_branch_users_1',
+  'type' => 'link',
+  'relationship' => 'jump_branch_users_1',
+  'source' => 'non-db',
+  'module' => 'Users',
+  'bean_name' => 'User',
+  'side' => 'right',
+  'vname' => 'LBL_JUMP_BRANCH_USERS_1_FROM_USERS_TITLE',
+);
+
+
  // created: 2018-08-08 07:32:23
 $dictionary['jump_branch']['fields']['branch_code_c']['inline_edit']='1';
 $dictionary['jump_branch']['fields']['branch_code_c']['labelValue']='Branch Code';
