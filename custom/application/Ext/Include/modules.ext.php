@@ -119,29 +119,25 @@ $beanList['jump_Scheme'] = 'jump_Scheme';
 $beanFiles['jump_Scheme'] = 'modules/jump_Scheme/jump_Scheme.php';
 $moduleList[] = 'jump_Scheme';
 
-
- 
  //WARNING: The contents of this file are auto-generated
+
+$beanList['jump_sales_invoice'] = 'jump_sales_invoice';
+$beanFiles['jump_sales_invoice'] = 'modules/jump_sales_invoice/jump_sales_invoice.php';
+$moduleList[] = 'jump_sales_invoice';
+
 $beanList['jump_required_documents'] = 'jump_required_documents';
 $beanFiles['jump_required_documents'] = 'modules/jump_required_documents/jump_required_documents.php';
-$moduleList[] = 'jump_required_documents';
-
-
- 
+$moduleList[] = 'jump_required_documents'; 
  //WARNING: The contents of this file are auto-generated
 $beanList['jump_sales_order'] = 'jump_sales_order';
 $beanFiles['jump_sales_order'] = 'modules/jump_sales_order/jump_sales_order.php';
 $moduleList[] = 'jump_sales_order';
 
-
- 
  //WARNING: The contents of this file are auto-generated
 $beanList['jump_so_status'] = 'jump_so_status';
 $beanFiles['jump_so_status'] = 'modules/jump_so_status/jump_so_status.php';
 $moduleList[] = 'jump_so_status';
 
-
- 
  //WARNING: The contents of this file are auto-generated
 $beanList['jump_vehicle_allocation'] = 'jump_vehicle_allocation';
 $beanFiles['jump_vehicle_allocation'] = 'modules/jump_vehicle_allocation/jump_vehicle_allocation.php';

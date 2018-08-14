@@ -504,6 +504,9 @@ $app_list_strings['moduleList']['jump_Scheme'] = 'Scheme';
 
 
 
+
+$app_list_strings['moduleList']['jump_sales_invoice'] = 'Sales Invoice';
+
 $app_list_strings['moduleList']['jump_required_documents'] = 'Required Documents';
 
 
@@ -637,5 +640,6 @@ $app_list_strings['moduleList']['jump_so_status'] = 'SO Status';
 
 
 $app_list_strings['moduleList']['jump_vehicle_allocation'] = 'Vehicle Allocation';
+
 
 ?>
