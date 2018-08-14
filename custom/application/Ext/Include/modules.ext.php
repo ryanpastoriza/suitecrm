@@ -113,4 +113,11 @@ $beanFiles['jump_Scheme'] = 'modules/jump_Scheme/jump_Scheme.php';
 $moduleList[] = 'jump_Scheme';
 
 
+ 
+ //WARNING: The contents of this file are auto-generated
+$beanList['jump_sales_invoice'] = 'jump_sales_invoice';
+$beanFiles['jump_sales_invoice'] = 'modules/jump_sales_invoice/jump_sales_invoice.php';
+$moduleList[] = 'jump_sales_invoice';
+
+
 ?>
