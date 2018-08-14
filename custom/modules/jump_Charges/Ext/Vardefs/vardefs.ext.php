@@ -2,6 +2,40 @@
  //WARNING: The contents of this file are auto-generated
 
 
+// created: 2018-08-09 02:40:55
+$dictionary["jump_Charges"]["fields"]["jump_quote_jump_charges_1"] = array (
+  'name' => 'jump_quote_jump_charges_1',
+  'type' => 'link',
+  'relationship' => 'jump_quote_jump_charges_1',
+  'source' => 'non-db',
+  'module' => 'jump_Quote',
+  'bean_name' => 'jump_Quote',
+  'vname' => 'LBL_JUMP_QUOTE_JUMP_CHARGES_1_FROM_JUMP_QUOTE_TITLE',
+  'id_name' => 'jump_quote_jump_charges_1jump_quote_ida',
+);
+$dictionary["jump_Charges"]["fields"]["jump_quote_jump_charges_1_name"] = array (
+  'name' => 'jump_quote_jump_charges_1_name',
+  'type' => 'relate',
+  'source' => 'non-db',
+  'vname' => 'LBL_JUMP_QUOTE_JUMP_CHARGES_1_FROM_JUMP_QUOTE_TITLE',
+  'save' => true,
+  'id_name' => 'jump_quote_jump_charges_1jump_quote_ida',
+  'link' => 'jump_quote_jump_charges_1',
+  'table' => 'jump_quote',
+  'module' => 'jump_Quote',
+  'rname' => 'name',
+);
+$dictionary["jump_Charges"]["fields"]["jump_quote_jump_charges_1jump_quote_ida"] = array (
+  'name' => 'jump_quote_jump_charges_1jump_quote_ida',
+  'type' => 'link',
+  'relationship' => 'jump_quote_jump_charges_1',
+  'source' => 'non-db',
+  'reportable' => false,
+  'side' => 'right',
+  'vname' => 'LBL_JUMP_QUOTE_JUMP_CHARGES_1_FROM_JUMP_CHARGES_TITLE',
+);
+
+
  // created: 2018-08-08 05:46:36
 $dictionary['jump_Charges']['fields']['actualcost2_c']['inline_edit']='1';
 $dictionary['jump_Charges']['fields']['actualcost2_c']['labelValue']='Actual Cost';
@@ -20,9 +54,9 @@ $dictionary['jump_Charges']['fields']['chargecode_c']['labelValue']='Charge Code
 
  
 
- // created: 2018-08-08 05:49:25
-$dictionary['jump_Charges']['fields']['chargetype_c']['inline_edit']='1';
-$dictionary['jump_Charges']['fields']['chargetype_c']['labelValue']='Charge Type';
+ // created: 2018-08-10 02:51:49
+$dictionary['jump_Charges']['fields']['chargetype2_c']['inline_edit']='1';
+$dictionary['jump_Charges']['fields']['chargetype2_c']['labelValue']='Charge Type';
 
  
 

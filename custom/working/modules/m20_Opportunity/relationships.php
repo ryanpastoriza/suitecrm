@@ -43,6 +43,7 @@ $relationships = array (
   'm20_opportunity_modified_user' => 
   array (
     'id' => '6b491b8a-c467-0568-9e4c-5b6d04d59814',
+    'id' => 'd1879488-7ab8-81cf-4d24-5b6cdd054976',
     'relationship_name' => 'm20_opportunity_modified_user',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
@@ -69,6 +70,7 @@ $relationships = array (
   'm20_opportunity_created_by' => 
   array (
     'id' => '6c1f3ab8-3e2e-330a-4a3e-5b6d045732f1',
+    'id' => 'd1a6d6bb-3891-38f5-14a8-5b6cdd90d2b2',
     'relationship_name' => 'm20_opportunity_created_by',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
@@ -95,6 +97,7 @@ $relationships = array (
   'm20_opportunity_assigned_user' => 
   array (
     'id' => '6cde4eca-a7d9-998f-86ae-5b6d04390615',
+    'id' => 'd1e55fc1-6e90-1c1e-d3db-5b6cdd9e5c83',
     'relationship_name' => 'm20_opportunity_assigned_user',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
@@ -121,6 +124,7 @@ $relationships = array (
   'securitygroups_m20_opportunity' => 
   array (
     'id' => '6d73397a-b9b7-ca7e-6db1-5b6d04de4f1d',
+    'id' => 'd2049bbf-4ca8-792b-0827-5b6cdd807f56',
     'relationship_name' => 'securitygroups_m20_opportunity',
     'lhs_module' => 'SecurityGroups',
     'lhs_table' => 'securitygroups',
@@ -147,6 +151,7 @@ $relationships = array (
   'm20_opportunity_m20_activity_1' => 
   array (
     'id' => '668dd5bf-64bb-0eb2-4388-5b6d0440f4a1',
+    'id' => '256b7da0-91df-1e9c-2945-5b6cddcd6139',
     'relationship_name' => 'm20_opportunity_m20_activity_1',
     'lhs_module' => 'm20_Opportunity',
     'lhs_table' => 'm20_opportunity',

@@ -1,5 +1,6 @@
 <?php
 // created: 2018-08-10 05:20:45
+// created: 2018-08-10 00:35:51
 $dictionary["m20_Opportunity"]["fields"]["m20_opportunity_jump_quote_1"] = array (
   'name' => 'm20_opportunity_jump_quote_1',
   'type' => 'link',

@@ -6,12 +6,64 @@ array (
   array (
     'basic_search' => 
     array (
-      0 => 'name',
-      1 => 
+      'base_model_c' => 
       array (
-        'name' => 'current_user_only',
-        'label' => 'LBL_CURRENT_USER_FILTER',
-        'type' => 'bool',
+        'type' => 'relate',
+        'default' => true,
+        'studio' => 'visible',
+        'label' => 'LBL_BASE_MODEL',
+        'link' => true,
+        'width' => '10%',
+        'id' => 'J41_BASE_MODEL_ID_C',
+        'name' => 'base_model_c',
+      ),
+      'color_c' => 
+      array (
+        'type' => 'relate',
+        'default' => true,
+        'studio' => 'visible',
+        'label' => 'LBL_COLOR',
+        'link' => true,
+        'width' => '10%',
+        'id' => 'JUMP_COLOR_ID_C',
+        'name' => 'color_c',
+      ),
+      'lead_source_c' => 
+      array (
+        'type' => 'relate',
+        'default' => true,
+        'studio' => 'visible',
+        'label' => 'LBL_LEAD_SOURCE',
+        'link' => true,
+        'width' => '10%',
+        'id' => 'J41_LEAD_SOURCE_ID_C',
+        'name' => 'lead_source_c',
+      ),
+      'rating_c' => 
+      array (
+        'type' => 'enum',
+        'default' => true,
+        'studio' => 'visible',
+        'label' => 'LBL_RATING',
+        'width' => '10%',
+        'name' => 'rating_c',
+      ),
+      'payment_mode_c' => 
+      array (
+        'type' => 'enum',
+        'default' => true,
+        'studio' => 'visible',
+        'label' => 'LBL_PAYMENT_MODE',
+        'width' => '10%',
+        'name' => 'payment_mode_c',
+      ),
+      'status_c' => 
+      array (
+        'type' => 'varchar',
+        'default' => true,
+        'label' => 'LBL_STATUS',
+        'width' => '10%',
+        'name' => 'status_c',
       ),
     ),
     'advanced_search' => 

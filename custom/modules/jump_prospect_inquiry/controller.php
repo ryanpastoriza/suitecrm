@@ -101,17 +101,17 @@
 											null,
 											null, 
 											null, 
-											'". $opportunity_id ."', 
-											'" . $jump_prospect_inquiry_id_c . "',
-											'" . $lead_source_id ."', 
-											'" . $base_model_id ."', 
-											'". $payment_mode ."', 
-											'" . $financing_term_id . "', 
-											'". $user_id ."',
 											'" . $mode_desc_id . "', 
-											'" . $status_type ."', 
+											'" . $lead_source_id ."', 
+											'". $user_id ."',
+											'" . $base_model_id ."', 
 											'" . $color_id ."', 
-											'" . $inqry_number . "'
+											'" . $financing_term_id . "', 
+											'". $payment_mode ."', 
+											'" . $jump_prospect_inquiry_id_c . "',
+											'" . $inqry_number . "',
+											'". $opportunity_id ."', 
+											'" . $status_type ."' 
 									)";
 
 			$exec_insert_cstm   = $db->query($insert_qry_cstm, true);
@@ -121,22 +121,18 @@
 		}
 
 		public function action_individual_prospect_list(){
-
 			parent::action_listview();
-
 		}
 
 		public function action_corporate_prospect_list(){
-			
 			parent::action_listview();
-
 		}
 		
 		public function action_master_status_update(){
 			$db = DBManagerFactory::getInstance();
 
-			$id     	 = $_REQUEST['id'];
-			$action_status 	 = $_REQUEST['action_status'];
+			$id     	 	= $_REQUEST['id'];
+			$action_status 	= $_REQUEST['action_status'];
 
 			$query = "UPDATE
 						jump_prospect_inquiry_cstm
@@ -150,6 +146,23 @@
 			$this->view = 'update_status';
 			$this->view_object_map['response'] = $results;
 			
+		}
+
+		public function action_get_dealer(){
+			$branch_id = $_REQUEST['id'];
+			$db = DBManagerFactory::getInstance();
+
+			$query = "SELECT owning_branch_c, jump_dealer_id_c, jump_dealer.name as owning_dealer  from jump_branch_cstm
+					  INNER JOIN jump_dealer
+					  ON jump_branch_cstm.jump_dealer_id_c = jump_dealer.id
+					  
+					  where jump_branch_cstm.id_c = '". $branch_id ."' ";
+
+			$execute = $db->query($query, true);
+			$results = $db->fetchByAssoc($execute);
+
+			$this->view = 'update_status';
+			$this->view_object_map['response'] = $results;
 		}
 
 	}

@@ -48,7 +48,7 @@ $listViewDefs[$module_name] = array(
         'width' => '32',
         'label' => 'LBL_NAME',
         'default' => true,
-        'link' => true
+        'link' => false
     ),
     'ASSIGNED_USER_NAME' => array(
         'width' => '9',
