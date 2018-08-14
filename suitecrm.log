@@ -294,3 +294,5 @@ Wed Aug  8 10:25:30 2018 [5432][b81361c7-93bb-c7c9-d3a8-5b6a5662dfea][FATAL] Sug
 #5 C:\wamp64\www\suitecrm\index.php(52): SugarApplication->execute()
 #6 {main}
 08/13/18 06:31:11 [5132][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/14/18 03:15:44 [5300][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+08/14/18 03:18:00 [5300][c80c68cc-fc2b-f178-66aa-5b6a56472a81][FATAL] SugarBean::populateDefaultValues $field_defs should be an array

@@ -87,6 +87,16 @@ array (
             'name' => 'modeldescription_c',
             'studio' => 'visible',
             'label' => 'LBL_MODELDESCRIPTION',
+            'displayParams' => 
+            array (
+              'field_to_name_array' => 
+              array (
+                'id' => 'aos_products_id_c',
+                'name' => 'modeldescription_c',
+                'price' => 'unitprice_c',
+                'description' => 'vehicledetails_c',
+              ),
+            ),
           ),
           1 => 
           array (
