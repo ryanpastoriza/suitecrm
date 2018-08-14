@@ -148,6 +148,23 @@
 			
 		}
 
+		public function action_get_dealer(){
+			$branch_id = $_REQUEST['id'];
+			$db = DBManagerFactory::getInstance();
+
+			$query = "SELECT owning_branch_c, jump_dealer_id_c, jump_dealer.name as owning_dealer  from jump_branch_cstm
+					  INNER JOIN jump_dealer
+					  ON jump_branch_cstm.jump_dealer_id_c = jump_dealer.id
+					  
+					  where jump_branch_cstm.id_c = '". $branch_id ."' ";
+
+			$execute = $db->query($query, true);
+			$results = $db->fetchByAssoc($execute);
+
+			$this->view = 'update_status';
+			$this->view_object_map['response'] = $results;
+		}
+
 	}
 
 ?>

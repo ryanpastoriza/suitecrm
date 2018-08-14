@@ -1,3 +1,48 @@
-Mon Aug 13 02:50:28 2018 [3568][b81361c7-93bb-c7c9-d3a8-5b6a5662dfea][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-Mon Aug 13 03:04:04 2018 [3568][b81361c7-93bb-c7c9-d3a8-5b6a5662dfea][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-Mon Aug 13 03:06:16 2018 [3568][b81361c7-93bb-c7c9-d3a8-5b6a5662dfea][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Tue Aug 14 04:06:52 2018 [10748][-none-][FATAL] Could not connect to DB server 192.168.1.2 as developers. port : A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+Tue Aug 14 04:06:56 2018 [10748][-none-][FATAL] Could not connect to DB server 192.168.1.2 as developers. port : A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+Tue Aug 14 04:07:04 2018 [10748][-none-][FATAL] Could not connect to DB server 192.168.1.2 as developers. port : A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+Tue Aug 14 04:07:17 2018 [10748][-none-][FATAL] Could not connect to DB server 192.168.1.2 as developers. port : A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+Tue Aug 14 04:07:29 2018 [10748][-none-][FATAL] Could not connect to DB server 192.168.1.2 as developers. port : A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+Tue Aug 14 04:07:57 2018 [10748][-none-][FATAL] Could not connect to DB server 192.168.1.2 as developers. port : A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+Tue Aug 14 04:08:06 2018 [10748][-none-][FATAL] Could not connect to DB server 192.168.1.2 as developers. port : A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+Tue Aug 14 04:08:18 2018 [10748][-none-][FATAL] Could not connect to DB server 192.168.1.2 as developers. port : A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+Tue Aug 14 04:08:27 2018 [10748][-none-][FATAL] Could not connect to DB server 192.168.1.2 as developers. port : A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+Tue Aug 14 04:08:53 2018 [10748][-none-][FATAL] Could not connect to DB server 192.168.1.2 as developers. port : A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+Tue Aug 14 04:08:59 2018 [10748][-none-][FATAL] Could not connect to DB server 192.168.1.2 as developers. port : A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+Tue Aug 14 04:09:20 2018 [10748][-none-][FATAL] Could not connect to DB server 192.168.1.2 as developers. port : A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+Tue Aug 14 04:09:27 2018 [10748][-none-][FATAL] Could not connect to DB server 192.168.1.2 as developers. port : A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+Tue Aug 14 04:09:52 2018 [10748][-none-][FATAL] Could not connect to DB server 192.168.1.2 as developers. port : A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+Tue Aug 14 04:10:00 2018 [10748][-none-][FATAL] Could not connect to DB server 192.168.1.2 as developers. port : A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+Tue Aug 14 04:10:21 2018 [10748][-none-][FATAL] Could not connect to DB server 192.168.1.2 as developers. port : A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+Tue Aug 14 04:11:01 2018 [10748][-none-][FATAL] Could not connect to DB server 192.168.1.2 as developers. port : A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+Tue Aug 14 04:11:03 2018 [10748][-none-][FATAL] Could not connect to DB server 192.168.1.2 as developers. port : A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+Tue Aug 14 04:11:22 2018 [10748][-none-][FATAL] Could not connect to DB server 192.168.1.2 as developers. port : A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+Tue Aug 14 04:11:42 2018 [10748][-none-][FATAL] Could not connect to DB server 192.168.1.2 as developers. port : A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+Tue Aug 14 04:12:03 2018 [10748][-none-][FATAL] Could not connect to DB server 192.168.1.2 as developers. port : A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+Tue Aug 14 04:12:24 2018 [10748][-none-][FATAL] Could not connect to DB server 192.168.1.2 as developers. port : A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+Tue Aug 14 04:12:35 2018 [10748][-none-][FATAL] Could not connect to DB server 192.168.1.2 as developers. port : A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+Tue Aug 14 04:13:04 2018 [10748][-none-][FATAL] Could not connect to DB server 192.168.1.2 as developers. port : A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+

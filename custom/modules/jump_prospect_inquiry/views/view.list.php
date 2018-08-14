@@ -46,6 +46,7 @@ class Jump_prospect_inquiryViewList extends ViewList {
         parent::preDisplay();
         $this->lv->quickViewLinks = false;
         echo '<script type="text/javascript" src="custom/modules/jump_prospect_inquiry/js/list.js"></script>';
+        echo '<link href="custom/modules/jump_prospect_inquiry/style/filter.css" rel="stylesheet" type="text/css"/>';
     }
 
 }
