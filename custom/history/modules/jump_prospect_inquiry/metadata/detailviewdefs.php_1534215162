@@ -57,12 +57,12 @@ array (
       array (
         0 => 
         array (
-          0 => 
+          0 => '',
+          1 => 
           array (
             'name' => 'status_c',
             'label' => 'LBL_STATUS',
           ),
-          1 => '',
         ),
         1 => 
         array (
