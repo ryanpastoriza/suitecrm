@@ -54,3 +54,106 @@ target / context = result
 .clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}.clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}* html .clearfix,*:first-child+html .clearfix{zoom:1}
 
 
+
+
+/*:::::::::::::::::::::::::::::::::::: CUSTOM CSS ::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+.status {
+	position: fixed;
+	width: 100%;
+	left: 1px;
+	bottom: 1px;
+	padding: 5px 10px;
+	background-color: rgba(255,255,255, .2);
+}
+
+.status span {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.block {
+	width:100%;
+}
+
+#detailpanel_-1 .head {
+	padding: 5px!important;
+	border-bottom: 1px solid #e9e9e9;
+	margin-bottom: 10px;
+}
+
+#detailpanel_-1 .head h3 {
+	font-size: 16px;
+}
+
+#detailpanel_-1 .body label {
+	font-size: 14px!important;
+	color: #555;
+	font-weight: normal;
+}
+
+#detailpanel_-1 .body {
+	padding: 5px;
+}
+
+.vehicle-details {
+	padding: 5px;
+	background-color: #d8f5ee;
+	border: 1px solid #a5e8d6;
+	max-height: 160px;
+	border-radius: 4px;
+	overflow: auto;
+}
+
+.vehicle-remarks textarea {
+	width: 100%;
+	height: 100px;
+	resize: none;
+}
+
+.payment-summary h5 {
+	font-weight: bold!important;
+	font-size: 12px!important;
+	margin:0;
+	line-height: 2;
+}
+.payment-summary .p-value {
+	font-size: 12px;
+	color: #888!important;
+}
+
+.payment-summary li {
+	padding: 10px 5px;
+}
+
+.payment-summary li:nth-child(odd) {
+	background-color: #ddd!important;
+}
+
+.sales-order-label {
+	padding:0;
+	margin:0;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.table-custom tr {
+	border-bottom: 1px solid #eee!important;
+	cursor: pointer;
+}
+
+.table-custom tr:hover {
+	background-color: #eee!important;
+}
+
+.table-custom td, .table-custom th {
+	padding: 7px 5px!important;
+}	
+
+.table-custom .selected {
+	background-color: #d9d9d9!important;
+}
+
+.selected-cus {
+	background-color: #ddd!important;
+}
